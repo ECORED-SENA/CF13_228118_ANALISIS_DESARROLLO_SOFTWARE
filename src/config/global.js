@@ -1,22 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'Desarrollo web con HTML, CSS y JavaScript',
+    componenteFormativo: 'Bases de datos: SQL y NoSQL',
     descripcionCurso:
-      'El diseño de un sitio web corresponde a un componente fundamental en el proceso de creación de aplicaciones web; por ende, este componente está orientado a la comprensión de los conceptos más importantes que se deben tener en cuenta, así como también la forma en que se deben codificar para construir de manera propia un sitio web o de apoyarse en sistemas gestores de contenidos denominados CMS. ',
+      'Este componente aborda la gestión de bases de datos SQL y NoSQL, destacando sus características y aplicaciones. Incluye la configuración de entornos de trabajo con MySQL y MySQL Workbench, diseño y administración de bases de datos, y exploración de bases NoSQL como MongoDB. Los ejercicios prácticos refuerzan el aprendizaje mediante estudios de caso reales, como sistemas de facturación y gestión académica.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
       },
       {
         clases: ['banner-principal-decorativo-3'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
