@@ -6,260 +6,541 @@
       .titulo-principal__numero
         span 4
       h1 Gestores de contenido CMS
+    .f-4-1.mn.p-5
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
+          .p-4(style="background-color: #f2e5fd ")
+            p.mb-0 NoSQL (“no SQL”) comprende una amplia clase de sistemas de gestión de bases de datos que difieren del modelo clásico de SGBDR (Sistema de Gestión de Bases de Datos Relacionales) en aspectos importantes, siendo el más destacado que no usan SQL como lenguaje principal de consultas.  Los datos almacenados no requieren estructuras fijas, como tablas; normalmente, no soportan operaciones JOIN ni garantizan completamente ACID (atomicidad, consistencia, aislamiento y durabilidad), y, habitualmente, escalan bien horizontalmente, es decir, pueden aumentar la estructura de manera sencilla. Los sistemas NoSQL se denominan, a veces, “no solo SQL” para subrayar el hecho de que también pueden soportar lenguajes de consulta de tipo SQL. 
+        .col-lg-5.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/56.png', alt='')
+    .fondo-slyder.mn.p-5.mb-5
+      .tarjeta.bg-white.p-5
+        SlyderA(tipo='b')
+          .row.justify-content-center.mb-5
+            .col-lg-4.mb-lg-0.mb-3
+              h5.color-morado Escalabilidad
+              p.mb-0 Es la capacidad que tiene un sistema de ser configurado en software o hardware, para mejorar la respuesta a las exigencias o nuevas demandas de capacidad de procesamiento o almacenamiento (conservando las mismas funcionalidades). Actualmente, se usa mucho el término ‘escalabilidad vertical’, para referirse a este tipo de escalabilidad.
+            .col-lg-6: img(src='@/assets/curso/temas/57.png', alt='')
+          .row.justify-content-center.mb-5
+            .col-lg-4.mb-lg-0.mb-3
+              h5.color-morado Escalabilidad horizontal
+              p.mb-0 Consiste en potenciar el rendimiento del sistema desde un aspecto de mejora global, a diferencia de aumentar la potencia de una única parte del mismo. Este tipo de escalabilidad se basa en la modularidad de su funcionalidad (Junta de Andalucía, s. f.), es decir, que las funcionalidades se puedan extender con la misma facilidad con la que mejoran el rendimiento y capacidad.
+            .col-lg-6: img(src='@/assets/curso/temas/58.png', alt='')
+          .row.justify-content-center.mb-5
+            .col-lg-4.mb-lg-0.mb-3
+              h5.color-morado Escalabilidad vertical y horizontal
+              p.mb-0 Las bases de datos no relacionales están diseñadas para ofrecer sistemas con altas capacidades de escalabilidad vertical y horizontal.
+            .col-lg-6: img(src='@/assets/curso/temas/59.png', alt='')
+    Separador
+    .f-4-2.mn.p-5
+      #t_4_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+        h2 4.2 Cómo diferenciar NoSQL de SQL
+      p.mb-5(data-aos='fade-right') Al utilizar el término NoSQL no se hace referencia a una base de datos específica o a un tipo particular de base de datos, sino que define un conjunto de tipos de bases de datos que son diferentes a las bases de datos convencionales (relacionales). La principal diferencia entre las bases de datos NoSQL y las bases de datos relacionales tradicionales es que las NoSQL emplean una forma de almacenamiento no estructurado o estructuras diferentes a tablas. Simplificando la estructura de almacenamiento, las NoSQL pueden concentrarse en procesar grandes volúmenes de datos. 
+        br
+        br
+        |A continuación, se presenta una comparación rápida de las funciones de NoSQL con las bases de datos relacionales. 
+      .row.justify-content-center.mb-5
+        .col-lg-8
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Tabla 3.
+            span Comparación de las funciones de NoSQL 
+          .tabla-a.color-acento-botones.mb-5
+            table
+              thead
+                tr.border-0(style="background-color: #00ffdf")
+                  th Característica 
+                  th Base de datos NoSQL 
+                  th Precio Unitario 
+              tbody
+                tr(style="background-color: #ecf2ff ")
+                  td Desempeño 
+                  td Alto 
+                  td Bajo
+                tr(style="background-color: #ecf2ff ")
+                  td Fiabilidad 
+                  td Pobre 
+                  td Buena 
+                tr(style="background-color: #ecf2ff ")
+                  td Disponibilidad 
+                  td Buena 
+                  td Buena 
+                tr(style="background-color: #ecf2ff ")
+                  td Consistencia 
+                  td Pobre 
+                  td Buena 
+                tr(style="background-color: #ecf2ff ")
+                  td Almacenamiento de datos 
+                  td Optimizado para muchos datos 
+                  td Mediano o grande 
+                tr(style="background-color: #ecf2ff ")
+                  td Estabilidad 
+                  td Alta 
+                  td Alta (pero más costosa) 
+      p.mb-5(data-aos='fade-right').fw-bold A continuación, se presentan algunas ventajas y desventajas que tiene cada uno de estos tipos de bases de datos: 
+      .row.justify-content-center.mb-5
+        .col-lg-5.mb-lg-0.mb-3(data-aos="fade-right")
+          .p-5(style="background-color: #8722e2 ").h-100 
+            img.d-flex.m-auto(src='@/assets/curso/temas/60.svg', alt='' style="width: 60px ").mb-3
+            h4.mb-5.text-white Ventajas
+            p.mb-0.text-white Contrario a las bases de datos relacionales, las NoSQL están basadas en key-value pairs (clave valor).
+              br
+              br
+              |Las NoSQL tienen diferentes tipos de almacenamiento, como el almacén de columnas, documentos, claves, valor de gráficos (capas), objetos, en formato XML y otros modos de tipos de datos. Las bases de datos 
+              br
+              |NoSQL de código abierto tienen una implementación rentable económicamente, al no requerir licencias ni hardware de precio alto
+              br
+              br
+              |Trabajando con bases de datos NoSQL, la expansión de funcionalidades es más fácil y económica que usando bases de datos relacionales.
+        .col-lg-5.mb-lg-0.mb-3(data-aos="fade-right")
+          .p-5(style="background-color: #00ffdf ").h-100 
+            img.d-flex.m-auto(src='@/assets/curso/temas/61.svg', alt='' style="width: 60px ").mb-3
+            h4.mb-5 Desventajas
+            p.mb-0 Casi todas las bases NoSQL no admiten funciones de fiabilidad o integridad de los datos, mientras que las bases de datos relacionales, sí. Las bases NoSQL no soportan las funcionalidades o restricciones de consistencia en los datos. Para garantizar la integridad, es responsabilidad de los desarrolladores implementar con código propio, lo que agrega más complejidad al sistema.
+              br
+              br
+              |La falta de integridad referencial en los datos hace que no sean fiables para realizar transacciones seguras, como en los sistemas bancarios, donde la integridad de los datos es primordial. Otras formas de complejidad encontradas en la mayoría de las bases de datos NoSQL incluyen la incompatibilidad con consultas SQL; se necesita un lenguaje de consulta manual, haciendo los procesos mucho más lentos y complejos.
+    Separador 
+    #t_4_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 4.3 Tipos de bases de datos NoSQL 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-9.mb-lg-0.mb-3(data-aos="fade-right")
-        p.mb-0  Los gestores de contenidos, conocidos como #[em #[span.color-morado CMS (Content Management System)]], surgieron para simplificar la labor de los administradores de sitios web, comúnmente llamados WebMasters. Su desarrollo ha avanzado significativamente, posicionándolos como herramientas clave para publicar información y contenido propio en la web. Esto permite a los usuarios gestionar sus sitios sin la necesidad de externalizar el servicio o contratar a un profesional, evitando así costos innecesarios.
-        h5.mb-5 A continuación, se presenta una figura que ilustra la integración general de un CMS en un sitio web: 
-      .col-lg-3.col-7: img(src='@/assets/curso/temas/44.svg', alt='')
+      .col-lg-1.col-2.mb-lg-0.mb-3: img(src='@/assets/curso/temas/62.svg', alt='')
+      .col-lg-11
+        p.mb-0 Dentro de las bases de datos no relacionales, se encuentran distintos modelos o tipos de implementaciones. Este grupo de bases de datos no relacionales NoSQL desempeña funciones para diferentes ambientes y con necesidades variadas. Existen algunos tipos más comunes que otros, ya que están orientadas a documentos por permitir mejor escalabilidad horizontal (Macarrón, 2021)
+    .titulo-tres.mb-4: h3.mb-0 Bases de datos basadas en clave-valor
     .row.justify-content-center.mb-5
-      .col-lg-8.col-7
-        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 7.
-          span Integracion general del CMS
-        img.d-none.d-lg-block(src='@/assets/curso/temas/45.svg', alt='El software CMS, se integra entre la página web y un servidor con sistema operativo.')
-        img.d-block.d-lg-none(src='@/assets/curso/temas/46.svg', alt='El software CMS, se integra entre la página web y un servidor con sistema operativo.')
-    p.mb-5(data-aos='fade-right') Un gestvor de contenidos o CMS, es un #[em software] web diseñado para facilitar la creación, gestión y publicación de contenido en páginas web, sin requerir conocimientos avanzados en desarrollo de software o programación informática. Estas herramientas proporcionan una plataforma de administración virtual que permite a los usuarios crear, editar y publicar contenido web de manera eficiente. 
-    .titulo-tres.mb-4: h3.mb-0 Funciones 
-    h5.mb-4 A continuación, se describen las principales funciones que debe cumplir un CMS.
-    .f-4-1.p-5.mb-5
-      SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-        .tarjeta.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/47.svg' alt='AvatarTop')
-          h4: span.color-azul Independencia entre código y contenido 
-          p Permite separar la gestión de la estructura y funcionalidad de la web de la administración de contenidos, facilitando el trabajo de perfiles distintos: desarrolladores y creadores de contenido. 
-        .tarjeta.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/48.svg' alt='AvatarTop')
-          h4: span.color-azul Plantillas en diseño web 
-          p Facilitan modificar la apariencia del sitio web usando plantillas para colores, tipos de letra, imágenes, etc. Hay plantillas gratuitas y profesionales disponibles. 
-        .tarjeta.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/49.svg' alt='AvatarTop')
-          h4: span.color-azul Extensión de capacidades 
-          p Los CMS permiten añadir nuevas funcionalidades mediante plugins, cubriendo así necesidades específicas del sitio web. 
-        .tarjeta.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/50.svg' alt='AvatarTop')
-          h4: span.color-azul Enfocados al SEO 
-          p Facilitan la implementación de estrategias de SEO para mejorar el posicionamiento en motores de búsqueda. 
-        .tarjeta.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/51.svg' alt='AvatarTop')
-          h4: span.color-azul Gestión de enlaces 
-          p Permiten una gestión eficiente de los permalinks asociados a cada contenido, importante para técnicas SEO. 
-        .tarjeta.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/52.svg' alt='AvatarTop')
-          h4: span.color-azul Flujos de trabajo 
-          p Posibilitan definir responsabilidades dentro del equipo de administración, con flujos de aprobación para la publicación de contenidos. 
-        .tarjeta.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/53.svg' alt='AvatarTop')
-          h4: span.color-azul Comentarios 
-          p Incluyen sistemas de gestión de comentarios que permiten validar autores y administrar los comentarios recibidos. 
-        .tarjeta.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/54.svg' alt='AvatarTop')
-          h4: span.color-azul Control de versiones 
-          p Permiten versionar el contenido, facilitando la recuperación de versiones anteriores y la publicación de versiones específicas. 
-        .tarjeta.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/55.svg' alt='AvatarTop')
-          h4: span.color-azul Múltiples idiomas 
-          p Ofrecen gestión de contenido en varios idiomas, adaptándose a las preferencias del visitante. 
-        .tarjeta.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/56.svg' alt='AvatarTop')
-          h4: span.color-azul Múltiples sitios 
-          p Permiten gestionar varios sitios o secciones desde una plataforma centralizada, optimizando el mantenimiento. 
-        .tarjeta.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/57.svg' alt='AvatarTop')
-          h4: span.color-azul Seguridad 
-          p Enfocan en perfilar el contenido según el usuario y proveen protección general al sitio web. 
-    .titulo-tres.mb-4: h3.mb-0 Características 
-    h4.mb-4 A continuación, se presentan  las características de los gestores de contenido CMS: 
-    .row.justify-content-center.mb-5
-      .col-lg-9.mb-lg-0.mb-3
-        .tarjeta.p-4(style="background-color:#f2e5fd ")
-          ul.lista-ul--color
-            li
-              i.fas.fa-circle.fa-xs(style="color:#8722E2 ")
-              | El frontend, corresponde a la parte visible del CMS para los usuarios que acuden como invitados o usuarios registrados. 
-            li
-              i.fas.fa-circle.fa-xs(style="color:#8722E2 ")
-              | Conformación modular para la configuración y personalización de los sitios web. 
-            li
-              i.fas.fa-circle.fa-xs(style="color:#8722E2 ")
-              | Administración de usuarios, roles, perfiles y permisos de acceso. 
-            li
-              i.fas.fa-circle.fa-xs(style="color:#8722E2 ")
-              | Componentes para la creación, edición, publicación de contenidos. 
-            li
-              i.fas.fa-circle.fa-xs(style="color:#8722E2 ")
-              | Plantillas para distribuir y mantener el diseño del sitio web. 
-            li
-              i.fas.fa-circle.fa-xs(style="color:#8722E2 ")
-              | Posibilidad de extensiones que complementan las funcionalidades en el gestor de contenidos. 
-            li
-              i.fas.fa-circle.fa-xs(style="color:#8722E2 ")
-              | Características de manejo de internacionalización en varios idiomas.
-      .col-lg-3.col-7: img(src='@/assets/curso/temas/58.svg', alt='') 
-    .titulo-tres.mb-4: h3.mb-0 Clasificación CMS 
-    p.mb-5(data-aos='fade-right') Se clasifican normalmente teniendo en cuenta los siguientes tres aspectos, de acuerdo al lenguaje de programación, a la distribución de la licencia y a las funcionalidades que presenta: 
-      br
-      br
-      | #[b Teniendo en cuenta el lenguaje de programación:] 
-    .row.justify-content-center.mb-5
-      .col-lg-4.mb-lg-0.mb-3(data-aos="fade-right")
-        .tarjeta.h-100(style="background-color: #D5FFFA ").p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/temas/59.png', alt='Texto que describa la imagen')
-          p jAPS, Liferay, DSpace, Fedora, Nuxeo EP, Magnolia, Hippo CMS, Calenco, Polopoly, IBM Lotus Web Content Management, Day Communiqué WCM, Jarimba, Vignette, etc. 
-      .col-lg-4.mb-lg-0.mb-3(data-aos="fade-right")
-        .tarjeta.h-100(style="background-color: #D5FFFA ").p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/temas/60.png', alt='Texto que describa la imagen')
-          p Drupal, CMS Made Simple, Joomla!, Mambo, PHP-Nuke, TikiWiki, TYPO3, aWordPress, Xoops, Zikula, Jadu, ExpressionEngine, Accrisoft Freedom, CMS 10, Dim Works CMS, Content-SORT, Prodigia Easy Site Manager, PipePS, SiteAd CMS, etc. 
-      .col-lg-4.mb-lg-0.mb-3(data-aos="fade-right")
-        .tarjeta.h-100(style="background-color: #D5FFFA ").p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/temas/61.png', alt='Texto que describa la imagen')
-          p DotNetNuke Community Edition, Umbraco, mojoPortal, Kentico CMS, SharePoint Server, Telligent Community, Ektron CMS400.NET, Quantum Art QP7, webControl CMS, etc.
-    h4.mb-4 Teniendo como base la distribución de la licencia: 
-    p.mb-5(data-aos='fade-right') #[span.color-morado De software libre (Open Source):] significa que esta herramienta no presenta costos de licencia y el código fuente es accesible para ser modificado por los desarrolladores.  El soporte técnico de este tipo de CMS es asumido por la entidad que lo implementa o por medio de comunidades online que comparten y mantienen su documentación.  
-    .row.justify-content-center.mb-5
-      .col-lg-8
-        .tarjeta.color-primario.p-4
-          .row.justify-content-center.align-items-center
-            .col-lg-5.col-7: img(src='@/assets/curso/temas/62.png', alt='')
-            .col-lg-7
-              p.mb-0.text-white En esta categoría, algunos de los gestores más reconocidos son WordPress, Drupal, Joomla, Plone, TYPO3, OpenCMS, PHPNuke o Moodle.
-    p.mb-5(data-aos='fade-right') #[span.color-morado De código privado:] presentan costos de licencia y servicio, el código fuente es propietario por tanto sólo puede ser accedido y modificado por la compañía o personas que lo desarrollaron.  En cuanto al soporte técnico es parte de la oportunidad de negocio y normalmente es de excelente calidad, así como una gran cantidad de información documental.  
-    .row.justify-content-center.mb-5
-      .col-lg-8
-        .tarjeta.color-primario.p-4
-          .row.justify-content-center.align-items-center
-            .col-lg-5.col-7: img(src='@/assets/curso/temas/63.svg', alt='')
-            .col-lg-7
-              p.mb-0.text-white Los gestores más destacados son CMS10, Eximius2 CMS, Contendo CMS, Jarimba, CMS HYDRAportal, OnBase, IWEB, Oracle Portal, PipePS, Paloo, Smartone CMS, Vbulletin, XCM – Xeridia Content Manager, ZWeb Publisher CMS.
-    .row.justify-content-center.mb-3
-      .col-lg-4.mb-lg-0.mb-3(data-aos="zoom-in")
-        .tarjeta.h-100(style="background-color: #D6E1FD ").p-4.h-100
-          .row.mb-3
-            .col-3
-              figure
-                img(src='@/assets/curso/temas/64.svg', alt='Texto que describa la imagen')
-          h5 Plataformas en general 
-          p Drupal, Gekko, E107, Joomla, Mambo, PHP-Nuke, TYPO3, TYPOLight, XOOPS, ZWeb Publisher CMS, ADSM Portal 2.0, 360 Web Manager Software, GTLive 
-      .col-lg-4.mb-lg-0.mb-3(data-aos="zoom-in")
-        .tarjeta.h-100(style="background-color: #D6E1FD ").p-4.h-100
-          .row.mb-3
-            .col-3
-              figure
-                img(src='@/assets/curso/temas/65.svg', alt='Texto que describa la imagen')
-          h5 Sitios de educación 
-          p ATutor, Claroline, Dokeos, eCollege, FrogTeacher, Moodle, Sakai Project, Scholar360, Synergeia, Teleto 
-      .col-lg-4.mb-lg-0.mb-3(data-aos="zoom-in")
-        .tarjeta.h-100(style="background-color: #D6E1FD ").p-4.h-100
-          .row.mb-3
-            .col-3
-              figure
-                img(src='@/assets/curso/temas/66.svg', alt='Texto que describa la imagen')
-          h5 Blogs 
-          p WordPress, bBlog, DotClear, Lifetype, Plone, Nucleus CMS, Blogger, Textpattern 
-    .row.justify-content-center.mb-3
-      .col-lg-4.mb-lg-0.mb-3(data-aos="zoom-in")
-        .tarjeta.h-100(style="background-color: #D6E1FD ").p-4.h-100
-          .row.mb-3
-            .col-3
-              figure
-                img(src='@/assets/curso/temas/67.svg', alt='Texto que describa la imagen')
-          h5 Galerías 
-          p Gallery, Pixelpost, Expression Engine 
-      .col-lg-4.mb-lg-0.mb-3(data-aos="zoom-in")
-        .tarjeta.h-100(style="background-color: #D6E1FD ").p-4.h-100
-          .row.mb-3
-            .col-3
-              figure
-                img(src='@/assets/curso/temas/68.svg', alt='Texto que describa la imagen')
-          h5 Wikis 
-          p MediaWiki, TikiWiki, Twiki 
-      .col-lg-4.mb-lg-0.mb-3(data-aos="zoom-in")
-        .tarjeta.h-100(style="background-color: #D6E1FD ").p-4.h-100
-          .row.mb-3
-            .col-3
-              figure
-                img(src='@/assets/curso/temas/69.svg', alt='Texto que describa la imagen')
-          h5 Comercio electrónico  
+      .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
+        p.mb-5(data-aos='fade-right') Las bases de datos basadas en clave-valor son un tipo de base de datos NoSQL sencillo, que sirve para insertar y consultar datos. El concepto de ‘clave-valor’ significa que los datos se almacenan como una colección de pares clave-valor; la clave identifica de forma única la colección y el valor contiene los datos, los cuales se ordenan según la clave.
+          br
+          br
+          |#[b Ejemplo]
+          br
+          br
+          |Supóngase que se quieren almacenar datos de una persona, como su cédula, nombres, apellidos, correo y varios números de teléfono, y que, por ejemplo, necesita guardar los datos para las siguientes personas:
+      .col-lg-5.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/63.png', alt='')
+    .f-4-3.mn.p-5
+      .row.justify-content-center.mb-5
+        .col-lg-7.mb-lg-0.mb-3
+          .p-5(style="background-color: #3a1d71 ") 
+            .row.justify-content-center.mb-5
+              .col-lg-6.mb-lg-0.mb-3
+                p.text-white Cédula: 1029283762
+                  br
+                  |Nombre: JUAN CARLOS
+                  br
+                  |Apellidos: MARTÍNEZ
+                  br
+                  |Correo: juancho@nerss.et
+                  br
+                  |Teléfono: 3150817273
+                  br
+                  |Teléfono: 3168272372 
+              .col-lg-6.mb-lg-0.mb-3
+                p.text-white Cédula: 98765322
+                  br
+                  |Nombre: DANIELA
+                  br
+                  |Apellidos: VELÉZ LEMOS
+                  br
+                  |Correo: dnala@nerss.et
+        .col-lg-5.mb-lg-0.mb-3
+          .tarjeta.h-100.p-4(style="background-color: #f2e5fd")
+            img.d-flex.m-auto(src='@/assets/curso/temas/64.svg', alt='' style="width: 60px ").mb-3
+            p.mb-0 Se toma la cédula como una especie de llave para identificar a una persona, es decir, la cédula es el identificador único para cada persona y no hay dos personas con la misma cédula.
+      p.mb-5(data-aos='fade-right') #[b Más posibilidades ]
+        br
+        br
+        |En la misma base de datos, se necesita guardar datos de carros, siendo la placa lo que permite identificar al vehículo; entonces, los datos a guardar serían: 
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-2.mb-lg-0.mb-3
+          ol.lista-ol--cuadro
+            li.d-flex
+              .lista-ol--cuadro__vineta
+                span a
+              p.mb-0 
+                span.listado Placa: MSR-13 
+        .col-lg-2.mb-lg-0.mb-3
+          ol.lista-ol--cuadro
+            li.d-flex
+              .lista-ol--cuadro__vineta
+                span b
+              p.mb-0 
+                span.listado Modelo: 2015
+        .col-lg-2.mb-lg-0.mb-3
+          ol.lista-ol--cuadro
+            li.d-flex
+              .lista-ol--cuadro__vineta
+                span c
+              p.mb-0 
+                span.listado Marca: MAZDA 
+        .col-lg-2.mb-lg-0.mb-3
+          ol.lista-ol--cuadro
+            li.d-flex
+              .lista-ol--cuadro__vineta
+                span d
+              p.mb-0 
+                span.listado Tipo: SEDAN 
+      p.fw-bold La base de datos sería: 
+      .row.justify-content-center.mb-5
+        .col-lg-9
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Tabla 4. 
+            span Ejemplo 2 de base de datos
+      .tabla-a.color-acento-botones.mb-5
+            table
+              thead.border-0
+                tr(style="background-color: #00ffdf")
+                  th Clave
+                  th Valor
+              tbody
+                tr(style="background-color: #ecf2ff ")
+                  td persona/cédula
+                  td 1029283762
 
-          p osCommerce, Magento, Zen Cart, Drupal e-Commerce, CubeCart, OpenCart, VirtueMart 
-    .row.justify-content-center.mb-5
-      .col-lg-4.mb-lg-0.mb-3(data-aos="zoom-in")
-        .tarjeta.h-100(style="background-color: #D6E1FD ").p-4.h-100
-          .row.mb-3
-            .col-3
-              figure
-                img(src='@/assets/curso/temas/70.svg', alt='Texto que describa la imagen')
-          h5 Groupware  
-          p Webcollab, eGroupWare, Group-Office 
-    h4.mb-4 Como se indicó previamente, recordamos que la clasificación de los CMS se presenta de la siguiente forma:
-    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      h5 Figura 8.
-      span Esquema de clasificación de los CMS 
-    img.d-none.d-lg-block.mb-5(src='@/assets/curso/temas/71.svg', alt='Con base en el lenguaje de programación, con base en la licencia y de acuerdo con su funcionalidad.')
-    img.d-block.d-lg-none.mb-5(src='@/assets/curso/temas/72.svg', alt='Con base en el lenguaje de programación, con base en la licencia y de acuerdo con su funcionalidad.')
-    .titulo-tres.mb-4: h3.mb-0 Tipos CMS 
-    p.mb-5(data-aos='fade-right') Los tipos de gestores de contenidos varían según los tipos de páginas web que se deseen desarrollar o crear. Para satisfacer estas necesidades, existen gestores de contenidos altamente especializados, equipados con herramientas y características diseñadas para cumplir con requerimientos específicos. A continuación, se presentan algunos de los gestores de contenidos disponibles para su uso en diferentes contextos: 
-    .row.justify-content-center.mb-3.g-1
-      .col-lg-2
-        .tarjeta.tarjeta-iconos.p-2
-          img(src='@/assets/curso/temas/73.svg', alt='')
-          h5.mb-0 Blogs
-      .col-lg-2
-        .tarjeta.tarjeta-iconos.p-2
-          img(src='@/assets/curso/temas/74.svg', alt='')
-          h5.mb-0 Páginas corporativas
-      .col-lg-2
-        .tarjeta.tarjeta-iconos.p-2
-          img(src='@/assets/curso/temas/75.svg', alt='')
-          h5.mb-0 Tiendas online o ecommerce
-      .col-lg-2
-        .tarjeta.tarjeta-iconos.p-2
-          img(src='@/assets/curso/temas/76.svg', alt='')
-          h5.mb-0 Sitios de #[em e-learning]
-    .row.justify-content-center.mb-5
-      .col-lg-2
-        .tarjeta.tarjeta-iconos.p-2
-          img(src='@/assets/curso/temas/77.svg', alt='')
-          h5.mb-0 Foros
-      .col-lg-2
-        .tarjeta.tarjeta-iconos.p-2
-          img(src='@/assets/curso/temas/78.svg', alt='')
-          h5.mb-0 #[em Wikis]
-
-      
-
-    
-
+                tr(style="background-color: #ecf2ff ")
+                  td persona/1029283762/nombres
+                  td JUAN CARLOS
+                tr(style="background-color: #ecf2ff ")
+                  td persona/1029283762/apellidos
+                  td MARTÍNEZ
+                tr(style="background-color: #ecf2ff ")
+                  td persona/1029283762/correo
+                  td juancho@nerss.et
+                tr(style="background-color: #ecf2ff ")
+                  td persona/1029283762/teléfono
+                  td 3150817273
+                tr(style="background-color: #ecf2ff ")
+                  td persona/1029283762/teléfono
+                  td 3150817273
+                tr(style="background-color: #ecf2ff ")
+                  td carro/placa
+                  td MSR-13
+                tr(style="background-color: #ecf2ff ")
+                  td carro/MSR-13/modelo
+                  td 2015
+                tr(style="background-color: #ecf2ff ")
+                  td carro/MSR-13/marca
+                  td MAZDA
+                tr(style="background-color: #ecf2ff ")
+                  td carro/MSR-13/tipo
+                  td SENAN
+                tr(style="background-color: #ecf2ff ")
+                  td persona/cédula
+                  td 98765322
+                tr(style="background-color: #ecf2ff ")
+                  td persona/98765322/nombres
+                  td DANIELA
+                tr(style="background-color: #ecf2ff ")
+                  td persona/98765322/apellidos
+                  td VELEZ LEMOS
+                tr(style="background-color: #ecf2ff ")
+                  td persona/98765322/correo
+                  td dnala@nerss.et
+      p.mb-5(data-aos='fade-right') Estas bases de datos son óptimas para consultas en ambientes de respuesta rápida y para aplicaciones en tiempo real, como sistemas de telefonía IP o sistemas de chat. 
+      .titulo-tres.mb-4: h3.mb-0 Bases de datos orientadas a documentos
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-1.col-2.mb-lg-0.mb-3: img(src='@/assets/curso/temas/65.svg', alt='')
+        .col-lg-11
+          p.mb-0 Los SGBD con estas características son denominados bases de datos documentales y funcionan en el marco de la definición de un “documento”. La mayoría de estos SGBD coinciden en cómo se almacena la información, empleando un formato estándar. Los formatos estándares más comunes o populares son JSON, BSON y XML. Este último tipo de formato es uno de los más utilizados en la actualidad.
+      h4.color-morado Formato XML
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-11.col-2.mb-lg-0.mb-3
+          p.mb-0 XML, sigla en inglés de eXtensible Markup Language, traducido como “Lenguaje de Marcado Extensible” o “Lenguaje de Marcas Extensible”, es un metalenguaje que permite definir lenguajes de marcas. Desarrollado por el World Wide Web Consortium (W3C), se utiliza para almacenar datos en forma legible. Proviene del lenguaje SGML y permite definir la gramática de lenguajes específicos (de la misma manera que HTML es un lenguaje definido por SGML) para estructurar documentos grandes. A diferencia de otros lenguajes, XML da soporte a bases de datos, siendo útil cuando varias aplicaciones deben comunicarse entre sí o integrar información. 
+        .col-lg-1: img(src='@/assets/curso/temas/66.svg', alt='')
+      h4.color-morado Modelar información 
+      p.mb-5(data-aos='fade-right') Suponga que se desea modelar la información contenida en un mensaje de correo electrónico.
+      .row.justify-content-center.mb-5
+        .col-lg-9 
+          .tarjeta-codigo.p-5.mb-5
+            pre.language-html(language="html").mt-5
+              code &lt;Edit_Mensaje&gt; 
+                br
+                |&lt;Mensaje&gt; 
+                br
+                |    &lt;Remitente&gt; 
+                br
+                |      &lt;Nombre&gt;Nombre del remitente&lt;/Nombre&gt; 
+                br
+                |      &lt;Mail&gt;Correo del remitente&lt;/Mail&gt; 
+                br
+                |    &lt;/Remitente&gt; 
+                br
+                |    &lt;Destinatario&gt; 
+                br
+                |      &lt;Nombre&gt;Nombre del destinatario&lt;/Nombre&gt; 
+                br
+                |      &lt;Mail&gt;Correo del destinatario&lt;/Mail&gt; 
+                br
+                |    &lt;/Destinatario&gt; 
+                br
+                |    &lt;Texto&gt; 
+                br
+                |      &lt;Asunto&gt; 
+                br
+                |        Este es mi documento con una estructura muy sencilla no contiene atributos ni entidades… 
+                br
+                |      &lt;/Asunto&gt; 
+                br
+                |      &lt;Parrafo&gt; 
+                br
+                |        Este es mi documento con una estructura muy sencilla no contiene atributos ni entidades... 
+                br
+                |      &lt;/Parrafo&gt; 
+                br
+                |    &lt;/Texto&gt; 
+                br
+                |  &lt;/Mensaje&gt; 
+                br
+                |&lt;/Edit_Mensaje&gt;  
+    .titulo-tres.mb-4: h3.mb-0 En base de datos relacional 
+    .f-4-4.mn.p-5
+      p.mb-5(data-aos='fade-right') Si se quisiera modelar esto en una base de datos relacional, seguramente se definiría una tabla para personas (con atributos nombre y correo) y una tabla para los correos, con dos relaciones a la tabla persona: una para el remitente y otra para el destinatario. 
+      .row.justify-content-center.mb-5
+        .col-lg-3.mb-lg-0.mb-3
+          .tarjeta.p-4(style="background-color: #beb4d0 ")
+            p.mb-0 1. Persona: (nombres, correo) 
+              br
+              |2. Correo: (asuntos y texto)  
+        .col-lg-7.mb-lg-0.mb-3
+          .tarjeta.p-4(style="background-color: #d6e1fd ")
+            p.mb-0 Sin embargo, en XML, en lugar de tener filas en las tablas, cada correo es un archivo con la estructura dada en el ejemplo. 
+      h4.color-morado Formato JSON 
+      p.mb-5(data-aos='fade-right') JSON (acrónimo de JavaScript Object Notation, «notación de objeto de JavaScript») es un formato de texto sencillo para el intercambio de datos. Se trata de un subconjunto de la notación literal de objetos de JavaScript, aunque, debido a su amplia adopción como alternativa a XML, se considera (año 2019) un formato independiente del lenguaje. 
+      .row.justify-content-center.mb-5
+        .col-lg-8
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Tabla 5.
+            span Tipos de datos en JSON
+      .tabla-a.color-acento-botones.mb-5
+            table
+              thead.border-0
+                tr(style="background-color: #00ffdf")
+                  th Datos
+                  th Definición  
+              tbody
+                tr(style="background-color: #ecf2ff ")
+                  td Cadenas de texto
+                  td Al ser una secuencia de ninguno o más caracteres, se ponen entre doble comilla, como en lenguaje JavaScript. Ejemplo: “Hola Mundo”.
+                tr(style="background-color: #ecf2ff ")
+                  td Números
+                  td Se permiten números negativos y positivos, que también pueden contener parte no entera separada por puntos. Ejemplo: 654.321.
+                tr(style="background-color: #ecf2ff ")
+                  td Arreglos
+                  td Representan una lista con ninguno o más valores, los cuales pueden ser todos del mismo o de diferente tipo. Los valores separados por comas y el vector, entre llaves ([]). Ejemplo: [“Luis”, “Carlos”, “Julian”, 99].
+                tr(style="background-color: #ecf2ff ")
+                  td Booleanos
+                  td Representan valores booleanos y pueden tener dos valores: true y false.
+                tr(style="background-color: #ecf2ff ")
+                  td Valores nulos
+                    br
+                    | Objetos 
+                  td Representan el valor nulo (null).
+                    br
+                    br
+                    |Son colecciones no ordenadas de pares de la forma &lt;nombre&gt;:&lt;valor&gt;, donde el nombre debe ser separado por comas y puestos entre corchetes ({}). 
+      .titulo-tres.mb-4: h3.mb-0 Bases de datos no relacionales documentales 
+      p.mb-5(data-aos='fade-right') Las bases de datos no relacionales documentales utilizan el concepto de guardar la información con el modelo clave/valor. Por esta razón, los documentos más comunes son en formato JSON. La diferencia radica en que un documento se almacena en una clave. Esta definición puede parecer abstracta, pero se explica mejor con un ejemplo: 
+      .row.justify-content-center.mb-5
+        .col-lg-9 
+          .tarjeta-codigo.p-5.mb-5
+            pre.language-html(language="html").mt-5
+              code { 
+                br
+                |    “nombres”: “JUAN CARLOS”, 
+                br
+                |    “apellidos”: “MARTINEZ”, 
+                br
+                |    “fecha_nacimiento”: “1995-05-15”, 
+                br
+                |    “edad”: 65, 
+                br
+                |    “saldo”: 9876.134, 
+                br
+                |    “hobbies”: [“música”, “futbol”, “leer”], 
+                br
+                |    “correo”: “juancho@nerss.et”, 
+                br
+                |    “pedidos”: [], 
+                br
+                |    “acreedores”: null 
+                br
+                |} 
+      p.mb-5(data-aos='fade-right') Note cómo “nombres” es la clave y “JUAN CARLOS” es el valor. De la misma forma, “edad” es la clave y 65 el valor. 
+      p #[b Ejemplo] 
+        br
+        |Suponga que necesita modelar un menú de una aplicación como se presenta a continuación: 
+      .row.justify-content-center.mb-5
+        .col-lg-4
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Figura 15. 
+            span  Ejemplo
+          img(src='@/assets/curso/temas/67.png', alt='')
+      h4.color-morado Representación en formato BSON 
+      p.mb-5(data-aos='fade-right') JSON (acrónimo de JavaScript Object Notation, «notación de objeto de JavaScript») es un formato de texto sencillo para el intercambio de datos. Se trata de un subconjunto de la notación literal de objetos de JavaScript, aunque, debido a su amplia adopción como alternativa a XML, se considera (año 2019) un formato independiente del lenguaje. 
+      .row.justify-content-center.mb-5
+        .col-lg-6.mb-lg-0.mb-3
+          .tarjeta-codigo.p-5.mb-5
+            pre.language-html(language="html").mt-5
+              h4(style="color: #18fbdf ") Xml 
+              code &lt;menu id="file" value="Archivo"&gt; 
+                br
+                |&lt;popup&gt; 
+                br
+                |  &lt;menuitem value="Nuevo" onclick="CreateNewDoc()" /&gt; 
+                br
+                |  &lt;menuitem value="Abrir" onclick="OpenDoc()" /&gt; 
+                br
+                |  &lt;menuitem value="Cerrar" onclick="CloseDoc()" /&gt; 
+                br
+                |  &lt;menuitem value="Guardar" onclick="SaveDoc()" /&gt; 
+                br
+                |&lt;/popup&gt; 
+                br
+                |&lt;/menu&gt; 
+        .col-lg-6.mb-lg-0.mb-3
+          .tarjeta-codigo.p-5.mb-5
+            pre.language-html(language="html").mt-5
+              h4(style="color: #18fbdf ") json 
+              code { 
+                br
+                |  “menu”: { 
+                br
+                |    “id”: “file”, 
+                br
+                |    “value”: “Archivo”, 
+                br
+                |    “popup”: { 
+                br
+                |      “menuitems”: [ 
+                br
+                |        { 
+                br
+                |          “value”: “Nuevo”, 
+                br
+                |          “onclick”: “CreateNewDoc()” 
+                br
+                |        }, 
+                br
+                |        { 
+                br
+                |          “value”: “Abrir”, 
+                br
+                |          “onclick”: “OpenDoc()” 
+                br
+                |        }, 
+                br
+                |        { 
+                br
+                |          “value”: “Cerrar”, 
+                br
+                |          “onclick”: “CloseDoc()” 
+                br
+                |        }, 
+                br
+                |        { 
+                br
+                |          “value”: “Guardar”, 
+                br
+                |          “onclick”: “SaveDoc()” 
+                br
+                |        } 
+                br
+                |      ] 
+                br
+                |    } 
+                br
+                |  } 
+                br
+                |}
+      .titulo-tres.mb-4: h3.mb-0 Bases de datos orientada a grafos
+      p.mb-5(data-aos='fade-right') Este tipo de base de datos es muy diferente a los anteriores; maneja la información de una manera particular, empleando grafos y teoría de grafos. Cada nodo solo debe contener una sola columna, por lo tanto, se deben normalizar completamente las bases de datos. Solo aplica para grafos de tipo binario; cada nodo solo se puede relacionar con otros dos nodos como máximo. Las ventajas de este tipo de bases de datos se enfocan en la integridad de los datos y la optimización de consultas. 
+      .row.justify-content-center.mb-5
+        .col-lg-6
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Figura 16.
+            span Grafos
+          img(src='@/assets/curso/temas/68.png', alt='')
+      Separador
+      #t_4_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+        h2 4.4 Sistemas de Gestión de Bases de Datos (SGBD) NoSQL
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-11.col-2.mb-lg-0.mb-3
+          p.mb-0 XML, sigla en inglés de eXtensible Markup Language, traducido como “Lenguaje de Marcado Extensible” o “Lenguaje de Marcas Extensible”, es un metalenguaje que permite definir lenguajes de marcas. Desarrollado por el World Wide Web Consortium (W3C), se utiliza para almacenar datos en forma legible. Proviene del lenguaje SGML y permite definir la gramática de lenguajes específicos (de la misma manera que HTML es un lenguaje definido por SGML) para estructurar documentos grandes. A diferencia de otros lenguajes, XML da soporte a bases de datos, siendo útil cuando varias aplicaciones deben comunicarse entre sí o integrar información. 
+        .col-lg-1: img(src='@/assets/curso/temas/69.svg', alt='') 
+      .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+        h5 Tabla 6. 
+        span Sistemas de gestión de bases de datos            
+      .tabla-a.color-acento-botones.mb-5
+        table
+          thead.border-0
+            tr.border-0(style="background-color: #00ffdf")
+              th Tipo
+              th Logotipo
+              th Nombre
+              th Lanzamiento
+              th Licencia
+          tbody
+            tr(style="background-color: #ecf2ff ")
+              td Documental
+              td
+                img(src='@/assets/curso/temas/70.png', alt='')             
+              td MongoDB            
+              td 2008             
+              td Apache License 2.0             
+            tr(style="background-color: #ecf2ff ")
+              td Documental
+              td
+                img(src='@/assets/curso/temas/71.png', alt='')             
+              td CouchDB              
+              td 2005             
+              td Apache License 2.0             
+            tr(style="background-color: #ecf2ff ")
+              td Documental
+              td
+                img(src='@/assets/curso/temas/72.png', alt='')             
+              td Raven DB              
+              td 2010             
+              td GNU AGPL v3.0             
+            tr(style="background-color: #ecf2ff ")
+              td Clave/Valor
+              td
+                img(src='@/assets/curso/temas/73.png', alt='')             
+              td Apache Cassandra              
+              td 2010             
+              td Apache License 2.0              
+            tr(style="background-color: #ecf2ff ")
+              td Clave/Valor 
+              td
+                img(src='@/assets/curso/temas/74.png', alt='')             
+              td Riak              
+              td 2009             
+              td Apache License 2.0              
+            tr(style="background-color: #ecf2ff ")
+              td Grafos 
+              td 
+                img(src='@/assets/curso/temas/75.png', alt='')             
+              td Redis            
+              td 2009              
+              td Licencia: BSD             
+            tr(style="background-color: #ecf2ff ")
+              td Grafos 
+              td
+                img(src='@/assets/curso/temas/76.png', alt='')             
+              td Neo4j              
+              td 2009             
+              td GNU AGPL v3.0              
+            tr(style="background-color: #ecf2ff ")
+              td Grafos 
+              td
+                img(src='@/assets/curso/temas/77.png', alt='')             
+              td Dex              
+              td 2008             
+              td Comercial             
+            tr(style="background-color: #ecf2ff ")
+              td Grafos 
+              td
+                img(src='@/assets/curso/temas/78.png', alt='')             
+              td Sones GraphDB              
+              td 2012             
+              td GNU AGPL v3.0 y comercial              
 </template>
 
 <script>
