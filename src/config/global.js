@@ -59,60 +59,111 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Hojas de estilo',
+        titulo: 'Ejercicios de diseño e implementación',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Introducción CSS3',
+            titulo: 'Análisis y diseño sistema de facturación',
             hash: 't_2_1',
           },
           {
             numero: '2.2',
-            titulo: 'Estructura',
+            titulo: 'Identificación de sentencias DDL',
             hash: 't_2_2',
           },
           {
             numero: '2.3',
-            titulo: 'Formulario CSS3',
+            titulo: 'Generar la base de datos',
             hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Operaciones de mantenimiento y actualización',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Actualización por interfaz de línea de comandos',
+            hash: 't_2_5',
           },
         ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'JavaScript',
+        titulo: 'Administración de bases de datos',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '3.1',
-            titulo: 'Versiones',
+            titulo: 'Copia de seguridad de base de datos con MySQL Workbench',
             hash: 't_3_1',
           },
           {
             numero: '3.2',
-            titulo: 'Sintaxis',
+            titulo: 'Restaurar una copia de seguridad con MySQL Workbench',
             hash: 't_3_2',
-          },
-          {
-            numero: '3.3',
-            titulo: 'Tipos de datos',
-            hash: 't_3_3',
-          },
-          {
-            numero: '3.4',
-            titulo: 'Estructuras de control',
-            hash: 't_3_4',
           },
         ],
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Gestores de contenido CMS',
+        titulo: 'Introducción a NoSQL',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Definición de NoSQL',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Cómo diferenciar NoSQL de SQL',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Tipos de bases de datos NoSQL',
+            hash: 't_4_3',
+          },
+          {
+            numero: '4.4',
+            titulo: 'Sistemas de Gestión de Bases de Datos (SGBD) NoSQL',
+            hash: 't_4_4',
+          },
+        ],
       },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'NoSQL con MongoDB',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Conceptos básicos',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Consola interactiva',
+            hash: 't_5_2',
+          },
+          {
+            numero: '5.3',
+            titulo: 'Crear primer documento',
+            hash: 't_5_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Manipulación de datos con MongoDB',
+        desarrolloContenidos: true
+      }
     ],
     subMenu: [
       {
@@ -145,7 +196,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/228118_CF17_DU.pdf',
+        download: 'downloads/prueba.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -161,123 +212,140 @@ export default {
   },
   complementario: [
     {
-      tema: 'HTML 5',
+      tema: 'Establecer un entorno de trabajo',
       referencia:
-        'HTMLed.it. (2021). Editor HTML gratuito en línea, limpiador y convertidor.',
-      tipo: 'Página web',
-      link: 'https://htmled.it/or/',
+        'Bustos, H. (2019). Ejemplo introductorio DDL+DML (MySQL y Workbench) [video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=xwfzw9paFwo',
     },
     {
-      tema: 'JavaScript',
-      referencia: 'Cubic Factory. (2021). Ejecutar JavaScript.',
-      tipo: 'Página web',
-      link: 'https://www.cubicfactory.com/jseditor/',
+      tema: 'NoSQL con MongoDB',
+      referencia:
+        'Fazt. (2019, 22 agosto). MongoDB Curso, Introducción Práctica a NoSQL [Vídeo]. YouTube.',
+      tipo: 'Vídeo',
+      link: 'https://www.youtube.com/watch?v=lWMemPN9t6Q',
+    },
+    {
+      tema: 'NoSQL con MongoDB',
+      referencia:
+        'Ávila, J. (2020, 15 junio). Bases de Datos NoSQL [Vídeo]. YouTube.',
+      tipo: 'Vídeo',
+      link: 'https://www.youtube.com/watch?v=caS51djbuk4',
     },
   ],
   glosario: [
     {
-      termino: 'CMS',
-      significado: 'Sistema manejador de contenidos.',
-    },
-    {
-      termino: 'CSS3',
-      significado: 'Hojas de estilo en cascada, versión 3.',
-    },
-    {
-      termino: 'ES6',
-      significado: 'Abreviación de ECMAScript, versión 6.',
-    },
-    {
-      termino: '<em>Frontend</em>',
-      significado: 'Capa de presentación de una aplicación web.',
-    },
-    {
-      termino: '<em>Get</em>',
-      significado: 'Método de envío de datos por URL web.',
-    },
-    {
-      termino: 'JavaScript',
-      significado: 'Lenguaje de programación.',
-    },
-    {
-      termino: 'LAN',
-      significado: 'Red de área local.',
-    },
-    {
-      termino: '<em>Landing Page</em>',
+      termino: 'Base de datos',
       significado:
-        'Página web de aterrizaje, diseñada específicamente para una campaña de marketing o publicidad.',
+        'conjunto ordenado y finito de operaciones que permite hallar la solución de un problema.',
     },
     {
-      termino: 'LESS',
+      termino: 'Colección',
       significado:
-        'Hoja de estilo dinámica, extensión que amplía las capacidades de CSS.',
+        'es un compendio de documentos que comparten una relación de estructura similar, no necesariamente igual para todos los objetos.',
     },
     {
-      termino: 'MAN',
-      significado: 'Red de área metropolitana.',
-    },
-    {
-      termino: 'NODE.js',
+      termino: 'DBA',
       significado:
-        'Entorno de ejecución para JavaScript del lado del servidor.',
+        'Data Base Administrator es el rol que diseña un ingeniero responsable de las bases de datos en una organización.',
     },
     {
-      termino: '<em>Plugin</em>',
+      termino: 'Diccionario de datos',
       significado:
-        'Aplicación que extiende las funcionalidades de un programa principal.',
+        'conjunto de programas, instrucciones y reglas informáticas para ejecutar ciertas tareas en una computadora.',
     },
     {
-      termino: 'Post',
-      significado: 'Método de envío de datos por formulario web.',
-    },
-    {
-      termino: 'SEO',
+      termino: 'Documento',
       significado:
-        'Optimización para motores de búsqueda, estrategias para mejorar la visibilidad de un sitio web.',
+        'en bases de datos no relacionales, un documento es un objeto en formato JSON que es almacenado en binario en el motor NoSQL (BSON).',
     },
     {
-      termino: 'WAN',
-      significado: 'Red de área extensa o mundial.',
+      termino: 'Escalabilidad',
+      significado:
+        'es la capacidad que tiene un sistema de ser configurado en software o hardware para mejorar la respuesta a las exigencias o nuevas demandas de capacidad de procesamiento o almacenamiento (conservando las mismas funcionalidades).',
+    },
+    {
+      termino: 'Metadatos',
+      significado:
+        'conjunto unitario de instrucciones que permite a una computadora realizar funciones diversas como el tratamiento de textos, el diseño de gráficos, la resolución de problemas matemáticos y el manejo de bancos de datos.',
+    },
+    {
+      termino: 'Modelo conceptual',
+      significado:
+        'enfocado en prestar las entidades, los atributos y las relaciones entre dualidades con su multiplicidad.',
+    },
+    {
+      termino: 'Modelo de datos',
+      significado:
+        'representación de la base de datos a través de un diagrama.',
+    },
+    {
+      termino: 'NoSQL',
+      significado: 'base de datos que no usa el estándar SQL.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Acibeiro. M. (2021). Qué es un gestor de contenidos y cuál es el mejor para crear una web.',
-      link: 'https://www.lucushost.com/blog/gestor-de-contenidos/',
+        'Altarade, M. (2017, 20 abril). Bases de datos NoSQ: Guía definitiva. Pandorafms.',
+      link: 'https://pandorafms.com/blog/es/bases-de-datos-nosql',
     },
     {
-      referencia: 'Beati, H. (2016). HTML5 y CSS3.',
-    },
-    {
-      referencia: 'Cuervo, P. V. (2019). 10 características de un CMS.',
-      link: 'https://www.arquitectoit.com/cms/10-caracteristicas-cms/',
+      referencia: 'Graterol, Y. (2014). Mongo DB en español. GITHUB.',
+      link: 'https://github.com/yograterol/ebook-mongodb-basico',
     },
     {
       referencia:
-        'Gutierrez, R. (2018). Understanding the role of digital commons in the web; The making of HTML5.',
-    },
-    {
-      referencia:
-        'Hverbeke, M. (2018). Eloquent JavaScript: A Modern Introduction to Programming.',
-    },
-    {
-      referencia:
-        'Lenguaje JS. (2021). ¿Qué son los bucles? Bucles, iteraciones y repetición de código.',
-      link: 'https://lenguajejs.com/javascript/introduccion/bucles/',
-    },
-    {
-      referencia:
-        'Mooc, Aprendizaje Online.(2015). Clasificación de los sistemas de gestión de contenidos.',
+        'Junta de Andalucía. (s. f.). Conceptos sobre la escalabilidad. Marco de Desarrollo de la Junta de Andalucía.',
       link:
-        'https://mooccontenidosweb.wordpress.com/2015/05/01/clasificacion-de-los-sistemas-de-gestion-de-contenidos/',
+        'http://www.juntadeandalucia.es/servicios/madeja/contenido/recurso/220',
     },
     {
       referencia:
-        'Mora, S. L. (2021). HTML5 y CSS3: <6> HTML5 – Formularios</6>.',
+        'Macarrón, P. (2021, 8 marzo). Tipos de bases de datos no relacionales. Consultoría Certia.',
+      link: 'https://www.certia.net/tipos-de-bases-de-datos-no-relacionales/',
+    },
+    {
+      referencia:
+        'Microsoft. (2021, 19 mayo). Descripción de normalización de la base de datos. Microsoft Docs.',
       link:
-        'http://desarrolloweb.dlsi.ua.es/cursos/2011/html5-css3-es/html5-formularios',
+        'https://docs.microsoft.com/es-es/office/troubleshoot/access/database-normalization-description',
+    },
+    {
+      referencia:
+        'RAE. (s. f.). base | Diccionario de la lengua española. «Diccionario de la lengua española» - Edición del Tricentenario.',
+      link: 'https://dle.rae.es/base#CiiosqO',
+    },
+    {
+      referencia:
+        'Resnick, M. (2008, 12 noviembre). Sembrando las semillas para una sociedad más creativa. Eduteka.',
+      link: 'http://eduteka.icesi.edu.co/articulos/ScratchResnickCreatividad',
+    },
+    {
+      referencia:
+        'Sudarshan, H. (2002). Fundamentos de bases de datos. McGraw-Hill.',
+    },
+    {
+      referencia: 'Vertex42. (s.f.). Modelo de facturas gratis.',
+    },
+    {
+      referencia:
+        'Wikipedia. (2021). MariaDB. Wikipedia, la enciclopedia libre.',
+      link:
+        'https://es.wikipedia.org/w/index.php?title=MariaDB&oldid=135391766',
+    },
+    {
+      referencia: 'Wikipedia. (2021). MySQL. Wikipedia, la enciclopedia libre.',
+      link: 'https://es.wikipedia.org/wiki/MySQL',
+    },
+    {
+      referencia: 'Wikipedia. (2021, 10 junio). Extensible Markup Language.',
+      link:
+        'https://es.wikipedia.org/w/index.php?title=Extensible_Markup_Language&oldid=136233446',
+    },
+    {
+      referencia: 'Wikipedia. (2021a, enero 17). NoSQL.',
+      link: 'https://es.wikipedia.org/w/index.php?title=NoSQL&oldid=132486305',
     },
   ],
   creditos: [
@@ -300,14 +368,19 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Carlos Hernán Muñoz Carvajal',
+          nombre: 'Henry Eduardo Bastidas Paruma',
           cargo: 'Experto Temático',
           centro:
             'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },
         {
+          nombre: 'Peter Emerson Pinchao Solís',
+          cargo: 'Experto Temático',
+          centro: 'Centro agropecuario La Granja - Regional Tolima',
+        },
+        {
           nombre: 'Paola Alexandra Moya',
-          cargo: 'Evaluadora Instruccional',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -327,7 +400,7 @@ export default {
         },
         {
           nombre: 'Daniela Muñoz Bedoya',
-          cargo: 'Animador y Productor Multimedia',
+          cargo: 'Animador y Producción audiovisual',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
@@ -340,11 +413,6 @@ export default {
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
         {
           nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador de Recursos Educativos Digitales',
