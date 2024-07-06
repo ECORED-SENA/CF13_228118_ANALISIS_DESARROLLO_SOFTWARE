@@ -26,7 +26,7 @@
   
       
   </template>
-  
+
 <script>
 export default {
   name: 'Tema1',
@@ -44,5 +44,3 @@ export default {
 }
 </script>
 <style lang="sass"></style>
-
-  
