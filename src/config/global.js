@@ -36,42 +36,26 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'HTML 5',
+        titulo: 'Establecer un entorno de trabajo',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Etiquetas <em>(tags)</em>',
+            titulo: 'Sistema gestor de bases de datos MySQL',
             hash: 't_1_1',
           },
           {
             numero: '1.2',
-            titulo: 'Textos',
+            titulo: 'Sistema de diseño y gestión de bases de datos',
             hash: 't_1_2',
           },
           {
             numero: '1.3',
-            titulo: 'Imágenes',
+            titulo: 'Sistemas basados en MySQL',
             hash: 't_1_3',
-          },
-          {
-            numero: '1.4',
-            titulo: 'Hiperenlaces',
-            hash: 't_1_4',
-          },
-          {
-            numero: '1.5',
-            titulo: 'Tablas',
-            hash: 't_1_5',
-          },
-          {
-            numero: '1.6',
-            titulo: 'Formularios',
-            hash: 't_1_6',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
