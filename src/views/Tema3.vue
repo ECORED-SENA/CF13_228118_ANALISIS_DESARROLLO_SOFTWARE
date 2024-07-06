@@ -473,22 +473,6 @@
                 |msgForNormal = msgForNormal + dato[i] + ‘ - ‘;  
                 br
                 |} 
-              
-              
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
 
 </template>
 

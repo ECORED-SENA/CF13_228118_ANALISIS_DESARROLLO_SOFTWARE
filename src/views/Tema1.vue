@@ -99,11 +99,9 @@
                   span Descargar 
                   i.fas.fa-file-download
 
-
 </template>
 
 <script>
-
 export default {
   name: 'Tema1',
   components: {},
