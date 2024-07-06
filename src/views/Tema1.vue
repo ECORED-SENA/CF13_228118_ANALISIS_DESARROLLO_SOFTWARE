@@ -100,55 +100,10 @@
                   i.fas.fa-file-download
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
 </template>
 
 <script>
-import 'prismjs'
-import 'prismjs/themes/prism-tomorrow.min.css'
+
 export default {
   name: 'Tema1',
   components: {},
