@@ -25,7 +25,7 @@
                 h5.mb-3: span.color-azul.p-2 Proceso de descarga de MySQL Server Community y MySQL Workbench 
                 p(data-aos='fade-right') Lo invitamos a visitar el siguiente PDF, para conocer el proceso de descarga de MySQL Server Community y MySQL Workbench. 
               .col-auto
-                a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
+                a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_1.pdf')" target="_blank" type="application/pdf")
                   span Descargar 
                   i.fas.fa-file-download
         .col-lg-10
@@ -36,7 +36,7 @@
                 h5.mb-3: span.color-azul.p-2 Proceso de instalación de MySQL  
                 p(data-aos='fade-right') Lo invitamos a visitar el siguiente PDF, para conocer el proceso de instalación de MySQL. 
               .col-auto
-                a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
+                a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_2.pdf')" target="_blank" type="application/pdf")
                   span Descargar 
                   i.fas.fa-file-download
     Separador
@@ -95,7 +95,7 @@
                 h5.mb-3: span.color-azul.p-2 Manual de instalación de MariaDB en Windows  
                 p(data-aos='fade-right') Lo invitamos a visitar el siguiente PDF, para conocer el Manual de instalación de MariaDB en Windows. 
               .col-auto
-                a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
+                a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_3.pdf')" target="_blank" type="application/pdf")
                   span Descargar 
                   i.fas.fa-file-download
 

@@ -551,7 +551,7 @@
 					|#[b Verifique los siguientes archivos:]
 				.row.mb-5
 					.col-lg-6 
-						a.anexo.mb-4(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+						a.anexo.mb-4(:href="obtenerLink('downloads/Anexo_4.sql')" target="_blank")
 							.row.justify-content-around.align-items-center
 								.col-3
 									.anexo__icono
@@ -559,7 +559,7 @@
 								.anexo__texto
 									p Anexo. DDL_drogueria.sql 
 					.col-lg-6 
-						a.anexo.mb-4(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+						a.anexo.mb-4(:href="obtenerLink('downloads/Anexo_5.sql')" target="_blank")
 							.row.justify-content-around.align-items-center
 								.col-3
 									.anexo__icono
@@ -567,7 +567,7 @@
 								.anexo__texto
 									p Anexo. DDL_update.sql 
 					.col-lg-8 
-						a.anexo.mb-4(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+						a.anexo.mb-4(:href="obtenerLink('downloads/Anexo_6.mwb')" target="_blank")
 							.row.justify-content-around.align-items-center
 								.col-3
 									.anexo__icono
@@ -742,7 +742,7 @@
 							br
 							|#[b Puede verificar algunos modelos, pero es recomendable que lo cree de manera que ejercite, lo hasta ahora visto.] 
 					p Lo invitamos a visitar el siguiente, archivo Modelos.mwb
-					a.anexo.mb-4(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+					a.anexo.mb-4(:href="obtenerLink('downloads/Anexo_7.mwb')" target="_blank")
 								.row.justify-content-around.align-items-center
 									.col-3
 										.anexo__icono
