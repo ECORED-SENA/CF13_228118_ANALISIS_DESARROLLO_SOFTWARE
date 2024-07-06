@@ -1,0 +1,203 @@
+.banner-principal-decorativo
+  &-1
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 28%
+    right: 65%
+  &-2
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 31%
+    right: 13%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 70%
+    right: 15%
+
+@keyframes float1
+  0%
+    transform: translateY(20px)
+
+  100%
+    transform: translateY(0px)
+
+//MODIFICACIONES BASE//
+
+.titulo-principal__numero
+  i
+    color: $color-sistema-texto
+  span 
+    color: $color-sistema-texto !important
+.acordion__accion__btn--a
+  background-color: #F0C518
+  i
+    color: $color-sistema-texto
+.acordion__titulo
+  h3
+    color: white
+.acordion__activo
+  background-color: #ead6fc !important
+  .acordion__titulo
+    h3
+      color: $color-sistema-texto
+
+//MODIFICACIONES BASE//     
+
+//FONDOS ////R
+.mn
+  margin: 0 -3rem
+
+.fondo-intro
+  background-image: url('../assets/curso/temas/fondo-intro.png')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: 0 0
+.f-1-1
+  background-image: url('../assets/curso/temas/f-1-1.png')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: 0 0
+.f-1-2
+  background-image: url('../assets/curso/temas/f-1-2.png')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: 0 0
+.f-1-3
+  background-image: url('../assets/curso/temas/f-1-3.png')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: 0 0
+.f-1-4
+  background-image: url('../assets/curso/temas/f-1-4.png')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: 0 0
+.f-2-1
+  background-image: url('../assets/curso/temas/f-2-1.png')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: 0 0
+.f-2-2
+  background-image: url('../assets/curso/temas/f-2-2.png')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: 0 0
+.f-2-3
+  background-image: url('../assets/curso/temas/f-2-3.png')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: 0 0
+.f-3-1
+  background-image: url('../assets/curso/temas/f-3-1.png')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: 0 0
+.f-3-2
+  background-image: url('../assets/curso/temas/f-3-2.png')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: 0 0
+.f-3-3
+  background-image: url('../assets/curso/temas/f-3-3.png')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: 0 0
+.f-3-4
+  background-image: url('../assets/curso/temas/f-3-4.png')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: 0 0
+.f-3-5
+  background-image: url('../assets/curso/temas/f-3-5.png')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: 0 0
+.f-3-6
+  background-image: url('../assets/curso/temas/f-3-6.png')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: 0 0
+.f-4-1
+  background-image: url('../assets/curso/temas/f-4-1.png')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: 0 0
+
+// FONDOS//
+
+//ESTILOS NUEVOS//
+.tarjeta--morada
+  background-color: #3a1d71
+span.titulo-azul
+  background-color: #00ffdf
+  color: $color-sistema-texto !important
+span.color-morado
+  color: #8722E2
+  font-weight: bold
+span.color-rojo
+  color: #FF0202
+span.color-blue
+  color: blue
+span.color-azul
+  color: #00ffdf !important
+  font-weight: bold
+
+.tarjeta-codigo
+  border-radius: 10px
+  overflow: hidden
+  position: relative
+  background-color: #110628
+  &:before
+    position: absolute
+    content: ''
+    height: 55px
+    background-color: #3a1d71
+    width: 100%
+    top: 0
+    left: 0
+  &:after
+    position: absolute
+    content: url('../assets/curso/temas/botones.svg')
+    top: 0
+    left: 0
+    transform: translate(20px, 20px)
+pre code
+    color: $white
+code[class*=language-], pre[class*=language-] 
+    background-color: #110628 !important
+.titulo-tres
+  background: rgb(119,55,240)
+  background: linear-gradient(180deg, rgba(119,55,240,1) 0%, rgba(41,17,85,1) 100%)
+  display: inline-block
+  position: relative
+  padding: 10px
+  border-radius: 10px
+  h3
+    color: $white
+    margin-left: 50px
+    margin-right: 20px
+  &::before
+    content: url('../assets/curso/temas/titulotres.svg')
+    position: absolute
+    top: 0
+    left: 0
+.tarjeta-iconos
+  display: flex
+  // flex-wrap: wrap
+  flex-grow: 1
+  background-color: #debefb
+  align-items: center
+  justify-content: center
+  margin: 1px
+  border-radius: 10px
+  img
+    width: 51px
+    margin-right: 10px
+.fa-chevron-right:before
+  content: url('../assets/curso/temas/i-a.svg')
+.fa-chevron-left:before
+  content: url('../assets/curso/temas/d-a.svg')
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right, .slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: $color-acento-botones
+  opacity: 1
