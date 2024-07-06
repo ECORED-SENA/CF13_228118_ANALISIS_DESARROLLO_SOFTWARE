@@ -162,8 +162,8 @@ export default {
         nombreRuta: 'tema6',
         numero: '6',
         titulo: 'Manipulación de datos con MongoDB',
-        desarrolloContenidos: true
-      }
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       {
