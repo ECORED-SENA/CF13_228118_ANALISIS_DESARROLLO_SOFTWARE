@@ -247,7 +247,7 @@ export default {
     {
       termino: 'DBA',
       significado:
-        'Data Base Administrator es el rol que diseña un ingeniero responsable de las bases de datos en una organización.',
+        ' <em>Data Base Administrator</em> es el rol que diseña un ingeniero responsable de las bases de datos en una organización.',
     },
     {
       termino: 'Diccionario de datos',
@@ -262,7 +262,7 @@ export default {
     {
       termino: 'Escalabilidad',
       significado:
-        'es la capacidad que tiene un sistema de ser configurado en software o hardware para mejorar la respuesta a las exigencias o nuevas demandas de capacidad de procesamiento o almacenamiento (conservando las mismas funcionalidades).',
+        'es la capacidad que tiene un sistema de ser configurado en <em>software</em> o <em>hardware</em> para mejorar la respuesta a las exigencias o nuevas demandas de capacidad de procesamiento o almacenamiento (conservando las mismas funcionalidades).',
     },
     {
       termino: 'Metadatos',
@@ -339,7 +339,8 @@ export default {
       link: 'https://es.wikipedia.org/wiki/MySQL',
     },
     {
-      referencia: 'Wikipedia. (2021, 10 junio). Extensible Markup Language.',
+      referencia:
+        'Wikipedia. (2021, 10 junio). <em>Extensible Markup Language</em>.',
       link:
         'https://es.wikipedia.org/w/index.php?title=Extensible_Markup_Language&oldid=136233446',
     },
@@ -414,7 +415,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Jaime Hernán Tejada Llano',
+          nombre: 'Luis Gabriel Urueta Alvarez',
           cargo: 'Validador de Recursos Educativos Digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },

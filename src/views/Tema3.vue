@@ -7,7 +7,7 @@
         span 3
       h1 Administración de bases de datos
     .f-3-2.mn.p-5
-      p.mb-5(data-aos='fade-right') Las funciones de un administrador de bases de datos (Data Base Administrator, DBA), es la gestión general de la base de datos.
+      p.mb-5(data-aos='fade-right') Las funciones de un administrador de bases de datos (#[em Data Base Administrator], DBA), es la gestión general de la base de datos.
         br
         |Debe conocer las reglas de la tecnología particular, que en este caso sería MySQL, pero también está entre sus responsabilidades: 
       .row.justify-content-center.mb-5
@@ -47,12 +47,12 @@
                   p.mb-0 Antes de cualquier cosa, se debe hacer una conexión a la base de datos si no existe dando clic en la casa y luego en el icono más “+”.
                 li.d-flex
                   i.fas.fa-circle.fa-xs(style="color: #A854F3 ")
-                  p.mb-0 Posteriormente, en test connection y luego en él se escribe la contraseña del root.
+                  p.mb-0 Posteriormente, en #[em test connection] y luego en él se escribe la contraseña del #[em root].
                 li.d-flex
                   i.fas.fa-circle.fa-xs(style="color: #A854F3 ")
                   p.mb-0 Se le da doble clic a la conexión creada.
                     br
-                    |Luego, se da clic en la pestaña, administración y Data Export.
+                    |Luego, se da clic en la pestaña, administración y #[em Data Export].
 
               p.fw-bold.mb-3 Se debe seleccionar:
               ul.lista-ul--color.ms-4
@@ -98,11 +98,11 @@
                   li.d-flex
                     .lista-ol--cuadro__vineta
                       span 2
-                    p.mb-0 Seleccione Data Import/Restore.  
+                    p.mb-0 Seleccione #[em Data Import/Restore].  
                   li.d-flex
                     .lista-ol--cuadro__vineta
                       span 3
-                    p.mb-0 Marque la opción Import from Self-Contained File.
+                    p.mb-0 Marque la opción #[em Import from Self-Contained File].
                   li.d-flex
                     .lista-ol--cuadro__vineta
                       span 4
@@ -114,9 +114,9 @@
                   li.d-flex
                     .lista-ol--cuadro__vineta
                       span 6
-                    p.mb-0 Haga clic en el botón Star Import.
+                    p.mb-0 Haga clic en el botón #[em Star Import].
             .col-lg-4: img(src='@/assets/curso/temas/55.svg', alt='').pt-4
-    p.mb-5(data-aos='fade-right') Hasta este punto, puede tener la seguridad que está en capacidad de respaldar y restablecer la base de datos, por lo menos en un entorno de desarrollo y producción para bases pequeñas. Este proceso le puede servir para bases de datos grandes en las que debe usar la interfaz de comando “línea” con el comando “source”. Esto debido a que si la copia de seguridad es del tamaño de gigas, MySQL Workbench no podrá abrirlo y puede bloquearse, mientras que por la interfaz de línea de comando, el tamaño de la copia puede ser tan grande como se desee. 
+    p.mb-5(data-aos='fade-right') Hasta este punto, puede tener la seguridad que está en capacidad de respaldar y restablecer la base de datos, por lo menos en un entorno de desarrollo y producción para bases pequeñas. Este proceso le puede servir para bases de datos grandes en las que debe usar la interfaz de comando “línea” con el comando #[em “source”]. Esto debido a que si la copia de seguridad es del tamaño de gigas, MySQL Workbench no podrá abrirlo y puede bloquearse, mientras que por la interfaz de línea de comando, el tamaño de la copia puede ser tan grande como se desee. 
 
 
 

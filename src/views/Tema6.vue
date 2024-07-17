@@ -10,7 +10,7 @@
       .p-5(style="background-color: #f7eefe").mb-5
         .row.justify-content-center.align-items-center
           .col-lg-9.mb-lg-0.mb-3
-            p.mb-0 Las bases de datos deben poder manipular la información de varias maneras, ya que los procesos en los sistemas informáticos necesitan de esas operaciones básicas: crear datos, consultarlos, actualizarlos y, en algún punto, eliminarlos (Create, Read, Update, and Delete - CRUD). Por tanto, queda establecido que almacenarla o contenerla no es su mera y única función básica. 
+            p.mb-0 Las bases de datos deben poder manipular la información de varias maneras, ya que los procesos en los sistemas informáticos necesitan de esas operaciones básicas: crear datos, consultarlos, actualizarlos y, en algún punto, eliminarlos (#[em Create, Read, Update, and Delete] - CRUD). Por tanto, queda establecido que almacenarla o contenerla no es su mera y única función básica. 
           .col-lg-3.col-7: img(src='@/assets/curso/temas/70.png', alt='') 
       .titulo-tres.mb-4: h3.mb-0 Crear documentos
       p.mb-5(data-aos='fade-right') Es la primera de cuatro funciones elementales a la hora de utilizar bases de datos. Crear documentos permite insertar unidades de información; en el caso de MongoDB, a través de documentos en colecciones de datos.  
@@ -103,7 +103,9 @@
           .lista-ol--cuadro__vineta
             span 3 
           p.mb-0 Actualizar un documento: Este método tiene todas las funciones de .insert(), pero además permite actualizar un documento si ya existe el _id de dicho documento. En ese caso, .insert() mostraría una excepción. 
-      .titulo-tres.mb-4: h3.mb-0 Leer y consultar colecciones 
+      
+      .titulo-tres.my-5: h3.mb-0 Leer y consultar colecciones 
+      
       p.mb-5(data-aos='fade-right') Para leer y consultar la información, la forma básica consiste en usar el método find() de la colección, tal como se mencionó anteriormente en este componente formativo.
       ol.lista-ol--cuadro
         li.d-flex

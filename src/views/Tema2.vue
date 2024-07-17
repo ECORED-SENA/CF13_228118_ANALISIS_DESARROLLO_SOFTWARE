@@ -19,7 +19,7 @@
 			.row.justify-content-center.align-items-center.mb-5
 				.col-lg-1.col-6.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/11.svg', alt='')
 				.col-lg-11(data-aos="fade-left")
-					p.mb-0 Suponga que lo contratan para diseñar una base de datos de una droguería, el objetivo principal es llevar las existencias de cada producto, a la vez que se va facturando lo que se vende, también interesa la información de los clientes, porque a futuro se quiere hacer campañas publicitarias de email marketing, según los productos que cada cliente consume. 
+					p.mb-0 Suponga que lo contratan para diseñar una base de datos de una droguería, el objetivo principal es llevar las existencias de cada producto, a la vez que se va facturando lo que se vende, también interesa la información de los clientes, porque a futuro se quiere hacer campañas publicitarias de #[em email marketing], según los productos que cada cliente consume. 
 			.row.justify-content-center.mb-5
 				.col-lg-10
 					div.px-3(style="background-color: #e3dfeb")
@@ -56,7 +56,7 @@
 				.titulo-sexto.color-acento-contenido(data-aos='fade-right')
 					h5 Figura 1.
 					span Modelo de factura 
-				img(src='@/assets/curso/temas/13.png', alt='')
+				img(src='@/assets/curso/temas/13.png', alt='Factura con detalles del cliente, servicios prestados y costos. Incluye honorarios, mano de obra y descuento por cliente nuevo, con subtotal, IVA y total a pagar. ')
 		.f-2-1.mn.p-5
 			.titulo-tres.mb-4: h3.mb-0 Análisis y diseño 
 			p.mb-5(data-aos='fade-right') #[b Una buena forma de empezar el análisis es con el formato de la factura; se inicia revisando la cabecera de la factura.] 
@@ -69,13 +69,13 @@
 							:style="{'background-image':`url(${require('@/assets/curso/temas/14.png')})`}"
 						)
 						.bloque-texto-g__texto.p-4
-							p.mb-0 El cliente le ha pedido que modele un sistema de facturación para su droguería, es decir, para una droguería, no para un conjunto de droguerías. Es diferente, si solicitaran “se necesita un sistema de facturación que administre el inventario y facturación de múltiples droguerías”, a estos problemas se les llama multitenant (multiinquilino), pero este no es el caso. Por lo tanto, no es la entidad droguería parte del modelo, porque no se está modelando la facturación de múltiples droguerías. 
+							p.mb-0 El cliente le ha pedido que modele un sistema de facturación para su droguería, es decir, para una droguería, no para un conjunto de droguerías. Es diferente, si solicitaran “se necesita un sistema de facturación que administre el inventario y facturación de múltiples droguerías”, a estos problemas se les llama #[em multitenant] (multiinquilino), pero este no es el caso. Por lo tanto, no es la entidad droguería parte del modelo, porque no se está modelando la facturación de múltiples droguerías. 
 			.titulo-sexto.color-acento-contenido(data-aos='fade-right')
 				h5 Figura 2. 
 				span Factura con información resaltada
 			.row.justify-content-center.mb-5
 				.col-lg-10
-					img(src='@/assets/curso/temas/15.png', alt='') 
+					img(src='@/assets/curso/temas/15.png', alt='Sección de una factura que presenta los datos de facturación del cliente, incluyendo nombre, compañía, dirección, ciudad, teléfono y correo electrónico, junto con el número de factura, fecha, identificación del cliente y términos de pago.') 
 		.row.justify-content-center.mb-5
 				.col-lg-1.col-6.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/15.svg', alt='')
 				.col-lg-11(data-aos="fade-left")
@@ -93,7 +93,7 @@
 					.titulo-sexto.color-acento-contenido(data-aos='fade-right')
 						h5 Figura 3. 
 						span Identificación 
-					img(src='@/assets/curso/temas/17.png', alt='')
+					img(src='@/assets/curso/temas/17.png', alt='Diagrama entidad-relación en MySQL Workbench, presentando la tabla "persona" con sus columnas y tipos de datos. Las flechas indican las columnas configuradas como clave primaria (PK), no nula (NN) y única (UQ).')
 			p.mb-5(data-aos='fade-right') Tal parece que los datos más relevantes de los clientes están presentados en la parte resaltada de la imagen, lo que hace pensar que se requiere una entidad, cliente, usuario o persona y, que la persona puede tener relacionada una empresa o tal vez una persona hace la compra para una empresa. 
 		.f-2-3.mn.p-5
 			.row.justify-content-center.mb-5
@@ -101,7 +101,7 @@
 					.titulo-sexto.color-acento-contenido(data-aos='fade-right')
 						h5 Figura 4.
 						span Creación de tabla con las compañías 
-					img(src='@/assets/curso/temas/18.png', alt='')
+					img(src='@/assets/curso/temas/18.png', alt='Diagrama entidad-relación en MySQL Workbench, mostrando las tablas "persona" y "compania" con sus respectivas columnas y tipos de datos. Las flechas indican las columnas configuradas como clave primaria (PK), no nula (NN) y única (UQ) en la tabla "compania".')
 			p.mb-5(data-aos='fade-right') Como hay menos compañías que personas, se ha tomado id_compania como SMALLINT. Esta decisión permite cumplir con dos requerimientos no funcionales: 
 			.row.justify-content-center.mb-5
 				.col-lg-4.mb-lg-0.mb-3(data-aos="fade-right")
@@ -127,7 +127,7 @@
 					.titulo-sexto.color-acento-contenido(data-aos='fade-right')
 						h5 Figura 5.
 						span Relación entre la persona y la compañía 
-					img(src='@/assets/curso/temas/21.png', alt='')
+					img(src='@/assets/curso/temas/21.png', alt='Diagrama entidad-relación en MySQL Workbench mostrando las tablas "persona" y "compania" con sus respectivas columnas y tipos de datos. La flecha indica la relación entre la columna "id_compania" de la tabla "persona" y la clave primaria de la tabla "compania".')
 			p.mb-5(data-aos='fade-right') Al hacerlo de esta forma, una persona puede pertenecer a una empresa (solo a una), pero esa misma persona podría comprar en la farmacia unas veces a nombre propio y otras a nombre de la empresa, y este modelo no permitiría saber cada caso. Otro problema es que esa persona un día compra a nombre de una empresa y otro día puede comprar a nombre de otra empresa (si cambia de empresa) y al actualizar la empresa de la persona, se estarían actualizando las facturas pasadas, lo cual sería un error. 
 				br
 				br
@@ -137,7 +137,7 @@
 					.titulo-sexto.color-acento-contenido(data-aos='fade-right')
 						h5 Figura 6.
 						span Información de la factura 
-					img(src='@/assets/curso/temas/22.png', alt='')
+					img(src='@/assets/curso/temas/22.png', alt='Detalle de una factura que presenta los datos de la compañía, incluyendo nombre, dirección, ciudad y teléfono, así como la información de facturación del cliente, con el número de factura, la fecha y los términos de pago resaltados en un recuadro.')
 		.f-2-5.mn.p-5
 			p.mb-5(data-aos='fade-right') Ahora, se presentan los datos de la factura y sus datos, como número de factura (que debe ser único y secuencial), fecha, la identificación del cliente (código interno id_persona), y términos de pago. 
 			.row.justify-content-center.mb-5
@@ -153,7 +153,7 @@
 					.titulo-sexto.color-acento-contenido(data-aos='fade-right')
 						h5 Figura 7.
 						span Creación de la tabla término de pagos 
-					img(src='@/assets/curso/temas/24.png', alt='')
+					img(src='@/assets/curso/temas/24.png', alt='Diagrama entidad-relación que presenta las tablas y sus relaciones en una base de datos. La tabla "factura" se vincula con las tablas "persona," "compania" y "termino" mediante claves foráneas. Se destacan las propiedades de los campos en la tabla "factura," incluyendo el tipo de dato y las restricciones como la clave primaria (PK), no nulo (NN) y único (UQ).')
 			p.mb-5(data-aos='fade-right') Note que una factura necesariamente debe tener relacionada la referencia de una persona, el término, la fecha y la hora, pero la compañía (id_compania) no es obligatoria. Esto es porque hay facturas que las compran las personas naturales y otras que las compran las empresas o compañías, pero en un caso o en el otro, siempre habrá una persona que hace la compra, es por esto que el id_persona es obligatoria. 
 			.row.justify-content-center.mb-5.g-0
 				.col-lg-4.mb-lg-0.mb-3
@@ -194,8 +194,11 @@
 		.f-2-6.mn.p-5
 			.row.justify-content-center.mb-5
 				.col-lg-8
-					img(src='@/assets/curso/temas/26.png', alt='')
-			p.mb-5(data-aos='fade-right') Una categoría puede tener varios productos o varios productos pertenecen a una categoría, esto es una relación de 1 a muchos, que queda definida en la imagen anterior. Note los tipos de datos definidos y también que la columna existencia no puede ser null, además de eso, si el usuario no pone un dato o trata de poner dato null en la existencia, entonces el sistema gestor de base de datos le pondrá “0” a esa fila en esa columna. La imagen sugiere que los productos tienen una descripción, un precio unitario y como mencionó el cliente, un precio de compra:
+					.titulo-sexto.color-acento-contenido(data-aos='fade-right')
+						h5 Figura 8.
+						span Apartados que tienen los productos
+					img(src='@/assets/curso/temas/26.png', alt='Diagrama entidad-relación que presenta la estructura de las tablas "producto" y "categoria" en una base de datos. Se detalla la relación entre estas tablas, así como los campos de la tabla "producto," con sus propiedades y restricciones, incluyendo clave primaria (PK), no nulo (NN), único (UQ), y el valor por defecto (Default Expression) para el campo "existencia."')
+			p.mb-5(data-aos='fade-right') Una categoría puede tener varios productos o varios productos pertenecen a una categoría, esto es una relación de 1 a muchos, que queda definida en la imagen anterior. Note los tipos de datos definidos y también que la columna existencia no puede ser #[em null], además de eso, si el usuario no pone un dato o trata de poner dato #[em null] en la existencia, entonces el sistema gestor de base de datos le pondrá “0” a esa fila en esa columna. La imagen sugiere que los productos tienen una descripción, un precio unitario y como mencionó el cliente, un precio de compra:
 			.row.justify-content-center.align-items-center.mb-5
 				.col-lg-4.mb-lg-0.mb-3.col-7: img(src='@/assets/curso/temas/27.png', alt='') 
 				.col-lg-7
@@ -212,13 +215,13 @@
 				.titulo-sexto.color-acento-contenido(data-aos='fade-right')
 					h5 Figura 9.
 					span Columnas del modelo 
-				img(src='@/assets/curso/temas/29.png', alt='')
+				img(src='@/assets/curso/temas/29.png', alt='Diagrama entidad-relación que presenta la estructura de la tabla "factura_producto" en una base de datos. Se muestran los campos de la tabla, tales como id_factura, id_producto, valor_unitario y cantidad, junto con sus propiedades y restricciones, incluyendo clave primaria (PK), no nulo (NN), único (UQ), y el valor por defecto (Default Expression) para el campo "cantidad."')
 		Separador
 		#t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
 			h2 2.2 Identificación de sentencias DDL
 		.row.justify-content-center.mb-5
 			.col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
-				p.mb-5(data-aos='fade-right') Suponga que lo contratan para diseñar una base de datos de una droguería, el objetivo principal es llevar las existencias de cada producto, a la vez que se va facturando lo que se vende, también interesa la información de los clientes, porque a futuro se quiere hacer campañas publicitarias de email marketing, según los productos que cada cliente consume.
+				p.mb-5(data-aos='fade-right') Suponga que lo contratan para diseñar una base de datos de una droguería, el objetivo principal es llevar las existencias de cada producto, a la vez que se va facturando lo que se vende, también interesa la información de los clientes, porque a futuro se quiere hacer campañas publicitarias de #[em email marketing], según los productos que cada cliente consume.
 				.p-4(style="background-color: #d6e1fd ")
 					p.mb-0 MySQL Workbench ofrece la interfaz gráfica con la que se pueden generar estos códigos. Se mostrará cómo se hace con algunos ejemplos, siga los siguientes pasos: 
 			.col-lg-5.col-7: img(src='@/assets/curso/temas/30.png', alt='')
@@ -230,9 +233,9 @@
 			.row.mb-5
 				.col-lg-7
 					.titulo-sexto.color-acento-contenido(data-aos='fade-right')
-						h5 Figura 9. 
-						span Columnas del modelo 
-					img(src='@/assets/curso/temas/31.png', alt='')
+						h5 Figura 10. 
+						span #[em Copy to Clipboard]
+					img(src='@/assets/curso/temas/31.png', alt='La imagen presenta un diagrama en MySQL Workbench, destacando con una flecha roja la opción "Copy SQL to Clipboard" en el menú contextual del botón derecho sobre la tabla "persona". Esta opción permite copiar el SQL de la tabla al portapapeles.')
 			.row.justify-content-center.align-items-center.mb-5
 				.col-md-1.col-2.mb-lg-0.mb-3: img(src='@/assets/curso/temas/b.svg', alt='')
 				.col-md-11
@@ -447,7 +450,7 @@
 				.tarjeta-numero.p-4.h-100
 					.numero: h4.text-white 7
 					p.mt-3 Finalmente, le da en Next y el sistema generará el DDL de la base datos.  
-		p.mb-5(data-aos='fade-right') Se guarda un archivo #[b “Save to file”] y se copia al portapapeles “Copy to clipboard”. Se sugiere antes de dar Next y continuar el proceso, primero guardar como un archivo y ponerle este nombre, luego de ponerlo le da Next para que ejecute ese script en el SGDB instalado. 
+		p.mb-5(data-aos='fade-right') Se guarda un archivo #[b #[em “Save to file”]] y se copia al portapapeles #[em “Copy to clipboard”]. Se sugiere antes de dar #[em Next] y continuar el proceso, primero guardar como un archivo y ponerle este nombre, luego de ponerlo le da #[em Next] para que ejecute ese #[em script] en el SGDB instalado. 
 		.row.justify-content-center.mb-5
 			.col-lg-10
 				.tarjeta.color-primario.p-4.mb-3
@@ -458,7 +461,7 @@
 		Separador
 		#t_2_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
 			h2 2.4 Operaciones de mantenimiento y actualización 
-		p.mb-5(data-aos='fade-right') Por lo general, la base datos se diseña y se despliega en servidores en la nube, hosting o en instancias de almacenamiento, sistemas operativos o de plataforma que no tienen interfaz gráfica, es por eso que es importante el archivo de texto DDL con extensión .sql, la base de datos hasta ahora generada presenta una inexactitud que se ha puesto para ejemplificar una operación de actualización o mantenimiento. 
+		p.mb-5(data-aos='fade-right') Por lo general, la base datos se diseña y se despliega en servidores en la nube, #[em hosting] o en instancias de almacenamiento, sistemas operativos o de plataforma que no tienen interfaz gráfica, es por eso que es importante el archivo de texto DDL con extensión .sql, la base de datos hasta ahora generada presenta una inexactitud que se ha puesto para ejemplificar una operación de actualización o mantenimiento. 
 		.row.justify-content-center.mb-5
 			.col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
 				.tarjeta.p-4(style="background-color: #e3dfeb ")
@@ -494,7 +497,7 @@
 					.titulo-sexto.color-acento-contenido(data-aos='fade-right')
 						h5 Figura 12. 
 						span Información a agregar en la tabla factura 
-					img(src='@/assets/curso/temas/37.png', alt='')
+					img(src='@/assets/curso/temas/37.png', alt='Esta imagen presenta un diagrama entidad-relación que ilustra las tablas "persona" y "factura" en una base de datos. La tabla "factura" incluye columnas como id_factura, id_persona, id_compania, id_termino, fecha, hora, sub_total y tasa_impuesto. La flecha roja señala la columna "tasa_impuesto".')
 			p.mb-5(data-aos='fade-right') #[b Ahora, se necesitan sincronizar estos cambios (los del diagrama) con la base de datos generada. De acuerdo con lo anterior, puede revisar los siguientes pasos:  ]
 			.row.justify-content-center.mb-5
 				.col-lg-3.mb-lg-0.mb-3
@@ -551,7 +554,7 @@
 					|#[b Verifique los siguientes archivos:]
 				.row.mb-5
 					.col-lg-6 
-						a.anexo.mb-4(:href="obtenerLink('downloads/Anexo_4.sql')" target="_blank")
+						a.anexo.mb-4(:href="obtenerLink('downloads/DDL_drogueria.sql')" target="_blank")
 							.row.justify-content-around.align-items-center
 								.col-3
 									.anexo__icono
@@ -559,7 +562,7 @@
 								.anexo__texto
 									p Anexo. DDL_drogueria.sql 
 					.col-lg-6 
-						a.anexo.mb-4(:href="obtenerLink('downloads/Anexo_5.sql')" target="_blank")
+						a.anexo.mb-4(:href="obtenerLink('downloads/DDL_update.sql')" target="_blank")
 							.row.justify-content-around.align-items-center
 								.col-3
 									.anexo__icono
@@ -567,22 +570,22 @@
 								.anexo__texto
 									p Anexo. DDL_update.sql 
 					.col-lg-8 
-						a.anexo.mb-4(:href="obtenerLink('downloads/Anexo_6.mwb')" target="_blank")
+						a.anexo.mb-4(:href="obtenerLink('downloads/ModeloFacturacionDrogueria.mwb')" target="_blank")
 							.row.justify-content-around.align-items-center
 								.col-3
 									.anexo__icono
 										img(src="@/assets/curso/temas/link.svg")
 								.anexo__texto
-									p Anexo. ModeloFacturaciónDrogueria.mwb 
+									p Anexo. ModeloFacturacionDrogueria.mwb 
 			.col-lg-5(data-aos="fade-left"): img(src='@/assets/curso/temas/38.png', alt='')
-		p.mb-5(data-aos='fade-right') A continuación, se presenta cómo aplicar el script desde una terminal. Esta base de datos se encuentra diseñada para cumplir el requerimiento funcional de administración de facturas de una droguería: 
+		p.mb-5(data-aos='fade-right') A continuación, se presenta cómo aplicar el #[em script] desde una terminal. Esta base de datos se encuentra diseñada para cumplir el requerimiento funcional de administración de facturas de una droguería: 
 		.fondo-slyder.mn.p-5.mb-5
 			.tarjeta.bg-white.p-5
 				SlyderA(tipo='b')
 					.row.justify-content-center.mb-5
 						.col-lg-4.mb-lg-0.mb-3
 							h5.color-morado Paso 1
-							p.mb-0 Dar clic en el menú inicio, buscar MySQL, una terminal o interface de línea de comandados (Command Line Interface, CLI). 
+							p.mb-0 Dar clic en el menú inicio, buscar MySQL, una terminal o #[em interface] de línea de comandados (#[em Command Line Interface], CLI). 
 						.col-lg-6: img(src='@/assets/curso/temas/39.png', alt='')
 					.row.justify-content-center.mb-5
 						.col-lg-4.mb-lg-0.mb-3
@@ -727,9 +730,9 @@
 										p.mb-0 Una matrícula puede tener más de una materia, y la misma materia puede estar relacionada con varias matrículas. 
 				.col-lg-5(data-aos="fade-left"): img(src='@/assets/curso/temas/46.png', alt='')
 		.titulo-sexto.color-acento-contenido(data-aos='fade-right')
-			h5 Figura 12. 
-			span Información a agregar en la tabla factura
-		img(src='@/assets/curso/temas/47.svg', alt='').mb-4
+			h5 Figura 13. 
+			span Diagrama entidad relación
+		img(src='@/assets/curso/temas/47.svg', alt='Este diagrama entidad-relación muestra las relaciones entre entidades de un sistema académico, incluyendo "persona," "estudiante," "profesor," "inscripción," "programa," "materia" y "matrícula." Las conexiones especifican atributos y cardinalidades, como id_persona, nombre, apellidos, identificación, y más.').mb-4
 		.p-4(style="background-color: #f7eefe")
 			p.mb-0 Actualmente, algunos diseñadores de bases de datos no diseñan el modelo entidad relación, por lo general directamente diseñan el modelo lógico o diagrama relacional, en algunos casos se emplea el modelo que se denomina modelo conceptual, que es equivalente al modelo entidad relación, pero difiere en la notación del diagrama al hacerse más parecido al modelo relacional. Por este mismo motivo es poco usado, porque supone hacer un nuevo paso o transformación del modelo conceptual a un modelo lógico, siendo este último el que en realidad puede convertirse en una base de datos. 
 		.f-2-11.mn.p-5.mb-5.pb-1
@@ -765,10 +768,10 @@
 						ul.lista-ul--color
 							li.d-flex
 								i.fas.fa-circle.fa-xs(style="color: #A854F3 ")
-								p.mb-0 Revise por cada atributo si es conveniente que sea No Null (No null o NN), o si no nulo representa algo conceptualmente en el proceso.
+								p.mb-0 Revise por cada atributo si es conveniente que sea #[em Not Null] (#[em Not null] o NN), o si no nulo representa algo conceptualmente en el proceso.
 							li.d-flex
 								i.fas.fa-circle.fa-xs(style="color: #A854F3 ")
-								p.mb-0 Si un atributo o columna es Not Null, revise si es importante definir un valor por defecto según la lógica del problema.
+								p.mb-0 Si un atributo o columna es #[em Not Null], revise si es importante definir un valor por defecto según la lógica del problema.
 		.titulo-tres.mb-4: h3.mb-0 Diseño físico 
 		p.mb-5(data-aos='fade-right') Finalmente, se debe revisar cuidadosamente la naturaleza de los datos antes de generar el archivo, conocer los tipos de datos que soporta el SGDB y estar seguro de que están bien definidos (si pueden no ser nulos, la longitud máxima y mínima, etc.): 
 		.row.justify-content-center.mb-5
@@ -786,7 +789,7 @@
 					div(titulo="Analizar las restricciones ")
 						p.mb-0 #[b Considere:] 
 							br
-							|Este es el punto estratégico del modelo, revisar la no nulidad o nulidad de las llaves foráneas es de vital importancia, porque ello determina en gran porcentaje si su modelo cumple los requerimientos funcionales del sistema, por ejemplo, una inscripción debe tener relacionado un id_estudiante y un id_programa, porque la lógica de una inscripción es que un estudiante se matricula a un programa de formación, por lo tanto, ni id_estudiante, ni id_programa deben ser Null, por lo tanto, son atributo con restricción Not Null (NN). 
+							|Este es el punto estratégico del modelo, revisar la no nulidad o nulidad de las llaves foráneas es de vital importancia, porque ello determina en gran porcentaje si su modelo cumple los requerimientos funcionales del sistema, por ejemplo, una inscripción debe tener relacionado un id_estudiante y un id_programa, porque la lógica de una inscripción es que un estudiante se matricula a un programa de formación, por lo tanto, ni id_estudiante, ni id_programa deben ser #[em Null], por lo tanto, son atributo con restricción #[em Not Null] (NN). 
 					div(titulo="Definición de índices ")
 						p.mb-0 #[b Valide:] 
 							br

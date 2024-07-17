@@ -14,7 +14,7 @@
         .col-lg-5.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/3.png', alt='')
       Separador
       #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-        h2 1.1 XML Extensible Markup Language 
+        h2 1.1 XML #[em Extensible Markup Language]
       p.mb-5(data-aos='fade-right') #[b MySQL] es un sistema de gestión de bases de datos relacional desarrollado bajo licencia dual. Esto significa que cuenta con una licencia pública general y/o una licencia comercial por parte de #[em  Oracle Corporation], y según medios de comunicación, es considerada la base de datos de código abierto más popular del mundo. Tener licencia dual implica que se puede usar la licencia de uso público sin incurrir en gastos; no obstante, se puede adquirir una licencia de pago que incluye paquetes que robustecen el producto y servicios de soporte técnico especializado. 
       .row.justify-content-center.mb-4
         .col-lg-10
@@ -70,7 +70,7 @@
           .row.justify-content-center.mb-5
             .col-lg-4.mb-lg-0.mb-3
               h5.color-morado Panel de rendimiento visual 
-              p.mb-0 MySQL Workbench proporciona un conjunto de herramientas para mejorar el rendimiento de las aplicaciones MySQL. Los administradores de bases de datos pueden ver rápidamente los indicadores clave de rendimiento mediante el panel de rendimiento. Los informes de rendimiento proporcionan una fácil identificación y acceso a puntos de acceso de E / S (entrada y salida), declaraciones SQL de alto costo y más. Además, con un clic, los desarrolladores pueden ver dónde optimizar su consulta con el plan visual explain mejorado y fácil de usar. 
+              p.mb-0 MySQL Workbench proporciona un conjunto de herramientas para mejorar el rendimiento de las aplicaciones MySQL. Los administradores de bases de datos pueden ver rápidamente los indicadores clave de rendimiento mediante el panel de rendimiento. Los informes de rendimiento proporcionan una fácil identificación y acceso a puntos de acceso de E / S (entrada y salida), declaraciones SQL de alto costo y más. Además, con un clic, los desarrolladores pueden ver dónde optimizar su consulta con el plan #[em visual explain] mejorado y fácil de usar. 
             .col-lg-6: img(src='@/assets/curso/temas/7.png', alt='')
           .row.justify-content-center.mb-5
             .col-lg-4.mb-lg-0.mb-3

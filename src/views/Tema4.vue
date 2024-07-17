@@ -6,19 +6,28 @@
       .titulo-principal__numero
         span 4
       h1 Gestores de contenido CMS
-    .f-4-1.mn.p-5
+    .f-4-1.mn.p-5.pt-0
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
           .p-4(style="background-color: #f2e5fd ")
             p.mb-0 NoSQL (“no SQL”) comprende una amplia clase de sistemas de gestión de bases de datos que difieren del modelo clásico de SGBDR (Sistema de Gestión de Bases de Datos Relacionales) en aspectos importantes, siendo el más destacado que no usan SQL como lenguaje principal de consultas.  Los datos almacenados no requieren estructuras fijas, como tablas; normalmente, no soportan operaciones JOIN ni garantizan completamente ACID (atomicidad, consistencia, aislamiento y durabilidad), y, habitualmente, escalan bien horizontalmente, es decir, pueden aumentar la estructura de manera sencilla. Los sistemas NoSQL se denominan, a veces, “no solo SQL” para subrayar el hecho de que también pueden soportar lenguajes de consulta de tipo SQL. 
         .col-lg-5.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/56.png', alt='')
-    .fondo-slyder.mn.p-5.mb-5
+
+    
+    Separador
+    
+    #t_4_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 4.1 Definición de NoSQL 
+    p.mb-5(data-aos='fade-right') La web 2.0 (donde quienes suministran el contenido son los usuarios) trajo consigo grandes necesidades de datos e infraestructura tecnológica, principalmente para empresas como Google, Amazon y Facebook. Estas empresas tuvieron que buscar soluciones propias a estos problemas, enfocándose en la gran cantidad de almacenamiento y el crecimiento de sistemas web con acceso a información en tiempo real. Surgió la necesidad de proporcionar información gestionada y procesada desde grandes volúmenes de datos. Dado que las bases de datos relacionales no respondían de forma adecuada a esta necesidad, especialmente en tiempos de alta demanda, nacen las bases de datos NoSQL. 
+
+
+    .fondo-slyder.mn.p-5
       .tarjeta.bg-white.p-5
         SlyderA(tipo='b')
           .row.justify-content-center.mb-5
             .col-lg-4.mb-lg-0.mb-3
               h5.color-morado Escalabilidad
-              p.mb-0 Es la capacidad que tiene un sistema de ser configurado en software o hardware, para mejorar la respuesta a las exigencias o nuevas demandas de capacidad de procesamiento o almacenamiento (conservando las mismas funcionalidades). Actualmente, se usa mucho el término ‘escalabilidad vertical’, para referirse a este tipo de escalabilidad.
+              p.mb-0 Es la capacidad que tiene un sistema de ser configurado en #[em software] o #[em hardware], para mejorar la respuesta a las exigencias o nuevas demandas de capacidad de procesamiento o almacenamiento (conservando las mismas funcionalidades). Actualmente, se usa mucho el término ‘escalabilidad vertical’, para referirse a este tipo de escalabilidad.
             .col-lg-6: img(src='@/assets/curso/temas/57.png', alt='')
           .row.justify-content-center.mb-5
             .col-lg-4.mb-lg-0.mb-3
@@ -31,7 +40,7 @@
               p.mb-0 Las bases de datos no relacionales están diseñadas para ofrecer sistemas con altas capacidades de escalabilidad vertical y horizontal.
             .col-lg-6: img(src='@/assets/curso/temas/59.png', alt='')
     Separador
-    .f-4-2.mn.p-5
+    .f-4-2.mn.p-5.pt-0
       #t_4_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 4.2 Cómo diferenciar NoSQL de SQL
       p.mb-5(data-aos='fade-right') Al utilizar el término NoSQL no se hace referencia a una base de datos específica o a un tipo particular de base de datos, sino que define un conjunto de tipos de bases de datos que son diferentes a las bases de datos convencionales (relacionales). La principal diferencia entre las bases de datos NoSQL y las bases de datos relacionales tradicionales es que las NoSQL emplean una forma de almacenamiento no estructurado o estructuras diferentes a tablas. Simplificando la estructura de almacenamiento, las NoSQL pueden concentrarse en procesar grandes volúmenes de datos. 
@@ -86,7 +95,7 @@
               br
               |Las NoSQL tienen diferentes tipos de almacenamiento, como el almacén de columnas, documentos, claves, valor de gráficos (capas), objetos, en formato XML y otros modos de tipos de datos. Las bases de datos 
               br
-              |NoSQL de código abierto tienen una implementación rentable económicamente, al no requerir licencias ni hardware de precio alto
+              |NoSQL de código abierto tienen una implementación rentable económicamente, al no requerir licencias ni #[em hardware] de precio alto
               br
               br
               |Trabajando con bases de datos NoSQL, la expansión de funcionalidades es más fácil y económica que usando bases de datos relacionales.
@@ -178,12 +187,11 @@
                 span d
               p.mb-0 
                 span.listado Tipo: SEDAN 
-      p.fw-bold La base de datos sería: 
-      .row.justify-content-center.mb-5
-        .col-lg-9
-          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Tabla 4. 
-            span Ejemplo 2 de base de datos
+      p.fw-bold.mb-5 La base de datos sería: 
+
+      .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+        h5 Tabla 4. 
+        span Ejemplo 2 de base de datos
       .tabla-a.color-acento-botones.mb-5
             table
               thead.border-0
@@ -243,13 +251,13 @@
       h4.color-morado Formato XML
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-11.col-2.mb-lg-0.mb-3
-          p.mb-0 XML, sigla en inglés de eXtensible Markup Language, traducido como “Lenguaje de Marcado Extensible” o “Lenguaje de Marcas Extensible”, es un metalenguaje que permite definir lenguajes de marcas. Desarrollado por el World Wide Web Consortium (W3C), se utiliza para almacenar datos en forma legible. Proviene del lenguaje SGML y permite definir la gramática de lenguajes específicos (de la misma manera que HTML es un lenguaje definido por SGML) para estructurar documentos grandes. A diferencia de otros lenguajes, XML da soporte a bases de datos, siendo útil cuando varias aplicaciones deben comunicarse entre sí o integrar información. 
+          p.mb-0 XML, sigla en inglés de #[em eXtensible Markup Language], traducido como “Lenguaje de Marcado Extensible” o “Lenguaje de Marcas Extensible”, es un metalenguaje que permite definir lenguajes de marcas. Desarrollado por el World Wide Web Consortium (W3C), se utiliza para almacenar datos en forma legible. Proviene del lenguaje SGML y permite definir la gramática de lenguajes específicos (de la misma manera que HTML es un lenguaje definido por SGML) para estructurar documentos grandes. A diferencia de otros lenguajes, XML da soporte a bases de datos, siendo útil cuando varias aplicaciones deben comunicarse entre sí o integrar información. 
         .col-lg-1: img(src='@/assets/curso/temas/66.svg', alt='')
       h4.color-morado Modelar información 
       p.mb-5(data-aos='fade-right') Suponga que se desea modelar la información contenida en un mensaje de correo electrónico.
       .row.justify-content-center.mb-5
         .col-lg-9 
-          .tarjeta-codigo.p-5.mb-5
+          .tarjeta-codigo.p-5
             pre.language-html(language="html").mt-5
               code &lt;Edit_Mensaje&gt; 
                 br
@@ -290,8 +298,9 @@
                 |  &lt;/Mensaje&gt; 
                 br
                 |&lt;/Edit_Mensaje&gt;  
-    .titulo-tres.mb-4: h3.mb-0 En base de datos relacional 
-    .f-4-4.mn.p-5
+    
+    .titulo-tres.mb-5: h3.mb-0 En base de datos relacional 
+    .f-4-4.mn.p-5.pt-0
       p.mb-5(data-aos='fade-right') Si se quisiera modelar esto en una base de datos relacional, seguramente se definiría una tabla para personas (con atributos nombre y correo) y una tabla para los correos, con dos relaciones a la tabla persona: una para el remitente y otra para el destinatario. 
       .row.justify-content-center.mb-5
         .col-lg-3.mb-lg-0.mb-3
@@ -303,12 +312,11 @@
           .tarjeta.p-4(style="background-color: #d6e1fd ")
             p.mb-0 Sin embargo, en XML, en lugar de tener filas en las tablas, cada correo es un archivo con la estructura dada en el ejemplo. 
       h4.color-morado Formato JSON 
-      p.mb-5(data-aos='fade-right') JSON (acrónimo de JavaScript Object Notation, «notación de objeto de JavaScript») es un formato de texto sencillo para el intercambio de datos. Se trata de un subconjunto de la notación literal de objetos de JavaScript, aunque, debido a su amplia adopción como alternativa a XML, se considera (año 2019) un formato independiente del lenguaje. 
-      .row.justify-content-center.mb-5
-        .col-lg-8
-          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Tabla 5.
-            span Tipos de datos en JSON
+      p.mb-5(data-aos='fade-right') JSON (acrónimo de JavaScript #[em Object Notation], «notación de objeto de JavaScript») es un formato de texto sencillo para el intercambio de datos. Se trata de un subconjunto de la notación literal de objetos de JavaScript, aunque, debido a su amplia adopción como alternativa a XML, se considera (año 2019) un formato independiente del lenguaje. 
+
+      .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+        h5 Tabla 5.
+        span Tipos de datos en JSON
       .tabla-a.color-acento-botones.mb-5
             table
               thead.border-0
@@ -336,11 +344,11 @@
                     br
                     br
                     |Son colecciones no ordenadas de pares de la forma &lt;nombre&gt;:&lt;valor&gt;, donde el nombre debe ser separado por comas y puestos entre corchetes ({}). 
-      .titulo-tres.mb-4: h3.mb-0 Bases de datos no relacionales documentales 
+      .titulo-tres.mb-5: h3.mb-0 Bases de datos no relacionales documentales 
       p.mb-5(data-aos='fade-right') Las bases de datos no relacionales documentales utilizan el concepto de guardar la información con el modelo clave/valor. Por esta razón, los documentos más comunes son en formato JSON. La diferencia radica en que un documento se almacena en una clave. Esta definición puede parecer abstracta, pero se explica mejor con un ejemplo: 
       .row.justify-content-center.mb-5
         .col-lg-9 
-          .tarjeta-codigo.p-5.mb-5
+          .tarjeta-codigo.p-5
             pre.language-html(language="html").mt-5
               code { 
                 br
@@ -364,17 +372,17 @@
                 br
                 |} 
       p.mb-5(data-aos='fade-right') Note cómo “nombres” es la clave y “JUAN CARLOS” es el valor. De la misma forma, “edad” es la clave y 65 el valor. 
-      p #[b Ejemplo] 
+      p.mb-5 #[b Ejemplo] 
         br
         |Suponga que necesita modelar un menú de una aplicación como se presenta a continuación: 
       .row.justify-content-center.mb-5
         .col-lg-4
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figura 15. 
+            h5 Figura 14. 
             span  Ejemplo
-          img(src='@/assets/curso/temas/67.png', alt='')
+          img(src='@/assets/curso/temas/67.png', alt='Menú desplegable que muestra las opciones "Nuevo," "Abrir," "Cerrar," y "Guardar" bajo la categoría "Archivo."')
       h4.color-morado Representación en formato BSON 
-      p.mb-5(data-aos='fade-right') JSON (acrónimo de JavaScript Object Notation, «notación de objeto de JavaScript») es un formato de texto sencillo para el intercambio de datos. Se trata de un subconjunto de la notación literal de objetos de JavaScript, aunque, debido a su amplia adopción como alternativa a XML, se considera (año 2019) un formato independiente del lenguaje. 
+      p.mb-5(data-aos='fade-right') JSON (acrónimo de JavaScript #[em Object Notation], «notación de objeto de JavaScript») es un formato de texto sencillo para el intercambio de datos. Se trata de un subconjunto de la notación literal de objetos de JavaScript, aunque, debido a su amplia adopción como alternativa a XML, se considera (año 2019) un formato independiente del lenguaje. 
       .row.justify-content-center.mb-5
         .col-lg-6.mb-lg-0.mb-3
           .tarjeta-codigo.p-5.mb-5
@@ -450,20 +458,23 @@
                 |  } 
                 br
                 |}
-      .titulo-tres.mb-4: h3.mb-0 Bases de datos orientada a grafos
+      .titulo-tres.mb-5: h3.mb-0 Bases de datos orientada a grafos
       p.mb-5(data-aos='fade-right') Este tipo de base de datos es muy diferente a los anteriores; maneja la información de una manera particular, empleando grafos y teoría de grafos. Cada nodo solo debe contener una sola columna, por lo tanto, se deben normalizar completamente las bases de datos. Solo aplica para grafos de tipo binario; cada nodo solo se puede relacionar con otros dos nodos como máximo. Las ventajas de este tipo de bases de datos se enfocan en la integridad de los datos y la optimización de consultas. 
       .row.justify-content-center.mb-5
         .col-lg-6
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figura 16.
+            h5 Figura 15.
             span Grafos
-          img(src='@/assets/curso/temas/68.png', alt='')
+          img(src='@/assets/curso/temas/68.png', alt='Diagrama que representa un grafo compuesto por nodos y aristas, donde los nodos son los círculos y las aristas son las líneas que los conectan.')
       Separador
-      #t_4_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+
+      #t_4_4.titulo-segundo.color-acento-contenido(data-aos='fade-right').mb-4
         h2 4.4 Sistemas de Gestión de Bases de Datos (SGBD) NoSQL
+
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-11.col-2.mb-lg-0.mb-3
-          p.mb-0 XML, sigla en inglés de eXtensible Markup Language, traducido como “Lenguaje de Marcado Extensible” o “Lenguaje de Marcas Extensible”, es un metalenguaje que permite definir lenguajes de marcas. Desarrollado por el World Wide Web Consortium (W3C), se utiliza para almacenar datos en forma legible. Proviene del lenguaje SGML y permite definir la gramática de lenguajes específicos (de la misma manera que HTML es un lenguaje definido por SGML) para estructurar documentos grandes. A diferencia de otros lenguajes, XML da soporte a bases de datos, siendo útil cuando varias aplicaciones deben comunicarse entre sí o integrar información. 
+          p.mb-0 Como se sabe, la base de datos solo sirve si existe un sistema que la gestione, un SGBD. En NoSQL, hay varios SGBD y la mayoría son de código libre o de libre distribución. A continuación, se presentan algunos de los más populares, con sus respectivas características. Es necesario tener en cuenta que, no obstante, pueden existir otros SGBD menos populares pero que pueden ser una buena opción para trabajar con #[em Big Data]. 
+
         .col-lg-1: img(src='@/assets/curso/temas/69.svg', alt='') 
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         h5 Tabla 6. 
