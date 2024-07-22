@@ -33,7 +33,7 @@
             .row.justify-content-center.align-items-center
               .col-lg-2.col-6: img(src='@/assets/curso/temas/megafono.svg', alt='')
               .col-lg-8
-                h5.mb-3: span.color-azul.p-2 Proceso de instalación de MySQL  
+                h5.mb-3: span.color-azul.p-2 Proceso de instalación de MySQL Server Community
                 p(data-aos='fade-right') Lo invitamos a visitar el siguiente PDF, para conocer el proceso de instalación de MySQL. 
               .col-auto
                 a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_2.pdf')" target="_blank" type="application/pdf")
@@ -56,7 +56,7 @@
                 br
                 br
                 |En Workbench se pueden crear nuevos modelos, lo que equivale a crear una nueva base de datos e ir agregando los objetos requeridos como tablas, atributos, tipos de datos, relaciones, entre otras. 
-            .col-lg-6: img(src='@/assets/curso/temas/4.png', alt='')
+            .col-lg-6: img(src='@/assets/curso/temas/4.png', alt='', style="max-width: 505px")
           .row.justify-content-center.mb-5
             .col-lg-4.mb-lg-0.mb-3
               h5.color-morado Desarrollar 

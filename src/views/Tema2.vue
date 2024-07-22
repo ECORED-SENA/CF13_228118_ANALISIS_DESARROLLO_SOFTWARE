@@ -286,7 +286,7 @@
 							p.mb-0 Cómo en SQL se define un índice único.
 			.col-lg-6
 				.tarjeta.p-4(style="background-color: #e8eefe")
-					p.mb-0 Es importante que se familiarice con estas sentencias, porque las operaciones de mantenimiento de bases de datos como adición o sustracción de columnas o tablas, son más fáciles cuando se hacen a través de la ejecución de scripts en lenguaje SQL. 
+					p.mb-0 Es importante que se familiarice con estas sentencias, porque las operaciones de mantenimiento de bases de datos como adición o sustracción de columnas o tablas, son más fáciles cuando se hacen a través de la ejecución de #[em scripts] en lenguaje SQL. 
 		.row.justify-content-center.mb-5
 			.col-lg-10
 				.tarjeta.color-primario.p-4.mb-3
@@ -428,11 +428,11 @@
 			.col-lg-3.mb-lg-0.mb-3
 				.tarjeta-numero.p-4.h-100
 					.numero: h4.text-white 2
-					p.mt-3 Seleccione Ingeniería hacia adelante (Forward Ingingger). 
+					p.mt-3 Seleccione Ingeniería hacia adelante (#[em Forward Ingingger]). 
 			.col-lg-3.mb-lg-0.mb-3
 				.tarjeta-numero.p-4.h-100
 					.numero: h4.text-white 3
-					p.mt-3 Entre los datos de root base de datos. 
+					p.mt-3 Entre los datos de #[em root] base de datos. 
 			.col-lg-3.mb-lg-0.mb-3
 				.tarjeta-numero.p-4.h-100
 					.numero: h4.text-white 4
@@ -441,7 +441,7 @@
 			.col-lg-3.mb-lg-0.mb-3
 				.tarjeta-numero.p-4.h-100
 					.numero: h4.text-white 5
-					p.mt-3 Luego, pide la contraseña de usuario root que se puso en el proceso de instalación de MySQL. 
+					p.mt-3 Luego, pide la contraseña de usuario #[em root] que se puso en el proceso de instalación de MySQL. 
 			.col-lg-3.mb-lg-0.mb-3
 				.tarjeta-numero.p-4.h-100
 					.numero: h4.text-white 6
@@ -457,7 +457,7 @@
 					.row.justify-content-center.align-items-center
 						.col-lg-2.col-6: img(src='@/assets/curso/temas/35.svg', alt='')
 						.col-lg-8
-							p(data-aos='fade-right') El archivo generado guardado en formato de texto con extensión .sql es lo que se llama el script DDL de la base de datos, es el principal producto de un modelo de datos, es el entregable de un proyecto y por lo que materialmente se puede pasar una factura al cliente.
+							p(data-aos='fade-right') El archivo generado guardado en formato de texto con extensión .sql es lo que se llama el #[em script] DDL de la base de datos, es el principal producto de un modelo de datos, es el entregable de un proyecto y por lo que materialmente se puede pasar una factura al cliente.
 		Separador
 		#t_2_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
 			h2 2.4 Operaciones de mantenimiento y actualización 
@@ -503,7 +503,7 @@
 				.col-lg-3.mb-lg-0.mb-3
 					.tarjeta-numero.p-4.h-100
 						.numero: h4.text-white 1
-						p.mt-3 Hacer clic en Database > Synchronize Model.
+						p.mt-3 Hacer clic en #[em Database] > #[em Synchronize Model].
 				.col-lg-3.mb-lg-0.mb-3
 					.tarjeta-numero.p-4.h-100
 						.numero: h4.text-white 2
@@ -511,7 +511,7 @@
 				.col-lg-3.mb-lg-0.mb-3
 					.tarjeta-numero.p-4.h-100
 						.numero: h4.text-white 3
-						p.mt-3 Seleccionar los datos en la parte de generación de script adicionales. 
+						p.mt-3 Seleccionar los datos en la parte de generación de #[em script] adicionales. 
 				.col-lg-3.mb-lg-0.mb-3
 					.tarjeta-numero.p-4.h-100
 						.numero: h4.text-white 4
@@ -537,18 +537,18 @@
 				.col-lg-3.mb-lg-0.mb-3
 					.tarjeta-numero.p-4.h-100
 						.numero: h4.text-white 9
-						p.mt-3 Si se desea actualizar el modelo (diagrama) para que quede conforme a la base de datos, hacer clic en el botón “Update Model”. 
+						p.mt-3 Si se desea actualizar el modelo (diagrama) para que quede conforme a la base de datos, hacer clic en el botón “#[em Update Model]”. 
 				.col-lg-3.mb-lg-0.mb-3
 					.tarjeta-numero.p-4.h-100
 						.numero: h4.text-white 10
-						p.mt-3 Para actualizar la base de datos, hacer clic en Next. 
+						p.mt-3 Para actualizar la base de datos, hacer clic en #[em Next]. 
 			p.mb-5(data-aos='fade-right') #[b Al final del proceso se debe tener el DDL donde se genera la base datos y el DDL donde se actualiza la tabla factura.  ]
 		Separador
 		#t_2_5.titulo-segundo.color-acento-contenido(data-aos='fade-right')
 			h2 2.5 Actualización por interfaz de línea de comandos
 		.row.justify-content-center.mb-5
 			.col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
-				p Muchas veces no es el computador local el que interesa actualizar, sino más bien, un servidor en la nube. Algunas plataformas tienen un entorno gráfico que permite aplicar el script con unos cuantos clics desde una interfaz web, pero la mayoría ofrece una interfaz de consola o terminal, de manera que los recursos computacionales no se desperdician en interfaces gráficas. 
+				p Muchas veces no es el computador local el que interesa actualizar, sino más bien, un servidor en la nube. Algunas plataformas tienen un entorno gráfico que permite aplicar el #[em script] con unos cuantos clics desde una interfaz web, pero la mayoría ofrece una interfaz de consola o terminal, de manera que los recursos computacionales no se desperdician en interfaces gráficas. 
 					br
 					br
 					|#[b Verifique los siguientes archivos:]
@@ -590,7 +590,7 @@
 					.row.justify-content-center.mb-5
 						.col-lg-4.mb-lg-0.mb-3
 							h5.color-morado Paso 2
-							p.mb-0 A continuación, pedirá la contraseña de root. 
+							p.mb-0 A continuación, pedirá la contraseña de #[em root]. 
 						.col-lg-6: img(src='@/assets/curso/temas/41.png', alt='')
 					.row.justify-content-center.mb-5
 						.col-lg-4.mb-lg-0.mb-3
