@@ -82,7 +82,7 @@
     p.mb-5(data-aos='fade-right') El proceso complementario de restablecer una copia de base de datos es fundamental para la instalación de un sistema o el restablecimiento de la operación, cuando el sistema falla o se quiere volver a una versión anterior de la base de datos. Es por esto que se presentará un método sencillo para restablecer la base de datos a partir de un backup en formato SQL. 
       br
       br
-      |Siga los siguientes pasos luego de conectar a la base de datos con MySQL Workbench como se presenta a continuación.
+      |Siga estos pasos luego de conectar a la base de datos con MySQL Workbench como se presenta a continuación.
     .row.justify-content-center.mb-5
       .col-lg-10
         div.px-3(style="background-color: #e3dfeb")

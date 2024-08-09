@@ -36,7 +36,7 @@
       #t_5_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 5.2 Consola interactiva
 
-      p.mb-4 MongoDB tiene, al igual que todas las bases de datos, una interfaz de línea de comando (CLI), desde la cual se puede acceder a un API de las funcionalidades. Podemos acceder a su consola interactiva y realizar nuestras primeras interacciones con MongoDB. 
+      p.mb-4 MongoDB tiene, al igual que todas las bases de datos, una interfaz de línea de comando (CLI), desde la cual se puede acceder a una API de las funcionalidades. Podemos acceder a su consola interactiva y realizar nuestras primeras interacciones con MongoDB. 
       .fondo-slyder.mn.p-5.mb-5
         .tarjeta.bg-white.p-5
           SlyderA(tipo='b')

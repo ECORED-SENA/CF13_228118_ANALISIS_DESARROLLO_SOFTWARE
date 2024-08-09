@@ -110,7 +110,7 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Introducción a NoSQL',
+        titulo: 'Introducción de NoSQL',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -287,38 +287,38 @@ export default {
   referencias: [
     {
       referencia:
-        'Altarade, M. (2017, 20 abril). Bases de datos NoSQ: Guía definitiva. Pandorafms.',
+        'Altarade, M. (2017, 20 abril). Bases de datos NoSQ: Guía definitiva. Pandorafms. ',
       link: 'https://pandorafms.com/blog/es/bases-de-datos-nosql',
     },
     {
-      referencia: 'Graterol, Y. (2014). Mongo DB en español. GITHUB.',
+      referencia: 'Graterol, Y. (2014). Mongo DB en español. GITHUB. ',
       link: 'https://github.com/yograterol/ebook-mongodb-basico',
     },
     {
       referencia:
-        'Junta de Andalucía. (s. f.). Conceptos sobre la escalabilidad. Marco de Desarrollo de la Junta de Andalucía.',
+        'Junta de Andalucía. (s. f.). Conceptos sobre la escalabilidad. Marco de Desarrollo de la Junta de Andalucía. ',
       link:
         'http://www.juntadeandalucia.es/servicios/madeja/contenido/recurso/220',
     },
     {
       referencia:
-        'Macarrón, P. (2021, 8 marzo). Tipos de bases de datos no relacionales. Consultoría Certia.',
+        'Macarrón, P. (2021, 8 marzo). Tipos de bases de datos no relacionales. Consultoría Certia. ',
       link: 'https://www.certia.net/tipos-de-bases-de-datos-no-relacionales/',
     },
     {
       referencia:
-        'Microsoft. (2021, 19 mayo). Descripción de normalización de la base de datos. Microsoft Docs.',
+        'Microsoft. (2021, 19 mayo). Fundamentos de la normalización de bases de datos. Microsoft Docs. ',
       link:
         'https://docs.microsoft.com/es-es/office/troubleshoot/access/database-normalization-description',
     },
     {
       referencia:
-        'RAE. (s. f.). base | Diccionario de la lengua española. «Diccionario de la lengua española» - Edición del Tricentenario.',
+        'RAE. (s. f.). base | Diccionario de la lengua española. «Diccionario de la lengua española» - Edición del Tricentenario. ',
       link: 'https://dle.rae.es/base#CiiosqO',
     },
     {
       referencia:
-        'Resnick, M. (2008, 12 noviembre). Sembrando las semillas para una sociedad más creativa. Eduteka.',
+        'Resnick, M. (2008, 12 noviembre). Sembrando las semillas para una sociedad más creativa. Eduteka. ',
       link: 'http://eduteka.icesi.edu.co/articulos/ScratchResnickCreatividad',
     },
     {
@@ -330,22 +330,23 @@ export default {
     },
     {
       referencia:
-        'Wikipedia. (2021). MariaDB. Wikipedia, la enciclopedia libre.',
+        'Wikipedia. (2021). MariaDB. Wikipedia, la enciclopedia libre. ',
       link:
         'https://es.wikipedia.org/w/index.php?title=MariaDB&oldid=135391766',
     },
     {
-      referencia: 'Wikipedia. (2021). MySQL. Wikipedia, la enciclopedia libre.',
+      referencia:
+        'Wikipedia. (2021). MySQL. Wikipedia, la enciclopedia libre. ',
       link: 'https://es.wikipedia.org/wiki/MySQL',
     },
     {
       referencia:
-        'Wikipedia. (2021, 10 junio). <em>Extensible Markup Language</em>.',
+        'Wikipedia. (2021, 10 junio). <em>Extensible Markup Language</em>. ',
       link:
         'https://es.wikipedia.org/w/index.php?title=Extensible_Markup_Language&oldid=136233446',
     },
     {
-      referencia: 'Wikipedia. (2021a, enero 17). NoSQL.',
+      referencia: 'Wikipedia. (2021a, enero 17). NoSQL. ',
       link: 'https://es.wikipedia.org/w/index.php?title=NoSQL&oldid=132486305',
     },
   ],
@@ -375,13 +376,14 @@ export default {
             'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },
         {
-          nombre: 'Peter Emerson Pinchao Solís',
+          nombre: 'Peter Emerson Pinchao',
           cargo: 'Experto Temático',
-          centro: 'Centro agropecuario La Granja - Regional Tolima',
+          centro:
+            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },
         {
-          nombre: 'Paola Alexandra Moya',
-          cargo: 'Evaluadora instruccional',
+          nombre: 'Paola Alexandra Moya Peralta',
+          cargo: 'Evaluadora Instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -397,11 +399,6 @@ export default {
         {
           nombre: 'Edgar Mauricio Cortes Garcia',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Daniela Muñoz Bedoya',
-          cargo: 'Animador y Producción audiovisual',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {

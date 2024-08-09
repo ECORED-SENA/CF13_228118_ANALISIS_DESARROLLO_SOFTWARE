@@ -211,7 +211,7 @@
 					p.mb-0 La entidad factura_producto es una relación de muchos a muchos y agrega los datos necesarios para saber en cuánto y cuántos productos se venden por factura. También en la siguiente imagen se presenta cómo son obligatorias todas las columnas de este modelo y que la cantidad por defecto tiene valor de 1, debido a que si se intenta guardar un valor nulo, no debe ser posible y en lugar de insertar nulo insertará 1, porque no tiene sentido agregar un producto a una factura y no vender al menos un producto. 
 			.col-lg-4.col-7: img(src='@/assets/curso/temas/28.png', alt='') 
 		.row.justify-content-center.mb-5
-			.col-lg-6 
+			.col-lg-8
 				.titulo-sexto.color-acento-contenido(data-aos='fade-right')
 					h5 Figura 9.
 					span Columnas del modelo 
@@ -223,15 +223,15 @@
 			.col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
 				p.mb-5(data-aos='fade-right') Suponga que lo contratan para diseñar una base de datos de una droguería, el objetivo principal es llevar las existencias de cada producto, a la vez que se va facturando lo que se vende, también interesa la información de los clientes, porque a futuro se quiere hacer campañas publicitarias de #[em email marketing], según los productos que cada cliente consume.
 				.p-4(style="background-color: #d6e1fd ")
-					p.mb-0 MySQL Workbench ofrece la interfaz gráfica con la que se pueden generar estos códigos. Se mostrará cómo se hace con algunos ejemplos, siga los siguientes pasos: 
+					p.mb-0 MySQL Workbench ofrece la interfaz gráfica con la que se pueden generar estos códigos. Se mostrará cómo se hace con algunos ejemplos, siga estos pasos: 
 			.col-lg-5.col-7: img(src='@/assets/curso/temas/30.png', alt='')
 		.f-2-7.mn.p-5.mb-4
 			.row.justify-content-center.align-items-center.mb-5
 				.col-md-1.col-2.mb-lg-0.mb-3: img(src='@/assets/curso/temas/a.svg', alt='')
 				.col-md-11
-					p.mb-0 Haga clic derecho a la entidad persona y luego a “Copy to Clipboard” (copiar SQL en portapapeles). 
-			.row.mb-5
-				.col-lg-7
+					p.mb-0 Haga clic derecho a la entidad persona y luego a “Copy SQL to Clipboard” (copiar SQL en portapapeles). 
+			.row.justify-content-center.mb-5
+				.col-lg-6
 					.titulo-sexto.color-acento-contenido(data-aos='fade-right')
 						h5 Figura 10. 
 						span #[em Copy to Clipboard]
@@ -241,7 +241,7 @@
 				.col-md-11
 					p.mb-0 Después se debe pegar (Ctrl+V) el contenido en un editor de texto y el resultado será: 
 			.row.justify-content-center.align-items-center.mb-5
-				.col-lg-6.mb-lg-0.mb-3(data-aos="fade-right")
+				.col-lg-8.mb-lg-0.mb-3(data-aos="fade-right")
 					.tarjeta-codigo.p-5.mb-5
 						pre.language-html(language="html").mt-5
 							code REATE TABLE IF NOT EXISTS `mydb`.`persona` ( 
@@ -267,7 +267,7 @@
 								|UNIQUE INDEX `identificacion_UNIQUE` (`identificacion` ASC) VISIBLE) 
 								br
 								|ENGINE = InnoDB; 
-				.col-lg-5(data-aos="fade-left")
+				.col-lg-4(data-aos="fade-left")
 					.p-4(style="background-color:#e3dfeb ")
 						p.mb-0 Como puede apreciar, es posible obtener la definición de la #[b base de datos en lenguaje SQL (DDL)], si no se tuviera MySQL Workbench, se tendría que elaborar cada una de las sentencias. 
 		h5.mb-5 Pruebe sus conocimientos a través del siguiente ejercicio, en el que identifique en la sintaxis: 
@@ -277,7 +277,7 @@
 					.row.justify-content-center.align-items-center
 						.col-lg-4.col-7: img(src='@/assets/curso/temas/32.svg', alt='')
 						.col-lg-8
-							p.mb-0 Cómo en SQL define una llave primaria.
+							p.mb-0 Cómo en SQL se define una llave primaria.
 			.col-lg-3.mb-lg-0.mb-3(data-aos="fade-right")
 				.tarjeta.p-4(style="background-color: #debefb")
 					.row.justify-content-center.align-items-center
@@ -298,7 +298,7 @@
 		p.mb-5(data-aos='fade-right') A continuación, se presenta una entidad más compleja, como lo es la entidad factura:
 		.f-2-8.mn.p-5 
 			.row.justify-content-center.mb-5
-				.col-lg-6
+				.col-lg-7
 					.tarjeta-codigo.p-5.mb-5
 						pre.language-html(language="html").mt-5
 							code CREATE TABLE IF NOT EXISTS `mydb`.`factura` ( 
@@ -356,7 +356,7 @@
 								|ENGINE = InnoDB 
 			p.mb-5(data-aos='fade-right') Observe cómo las llaves foráneas les define un índice: 
 			.row.justify-content-center.mb-5
-				.col-lg-6
+				.col-lg-7
 					.tarjeta-codigo.p-5.mb-5
 						pre.language-html(language="html").mt-5
 							code INDEX `fk_factura_persona_idx` (`id_persona`ASC)VISIBLE,
@@ -428,7 +428,7 @@
 			.col-lg-3.mb-lg-0.mb-3
 				.tarjeta-numero.p-4.h-100
 					.numero: h4.text-white 2
-					p.mt-3 Seleccione Ingeniería hacia adelante (#[em Forward Ingingger]). 
+					p.mt-3 Seleccione Ingeniería hacia adelante (#[em Forward Engineering]). 
 			.col-lg-3.mb-lg-0.mb-3
 				.tarjeta-numero.p-4.h-100
 					.numero: h4.text-white 3
@@ -471,7 +471,7 @@
 						|#[b Además, junto a su equipo de trabajo ha detectado que no modelaron el pie de la factura:] 
 			.col-lg-5(data-aos="fade-left"): img(src='@/assets/curso/temas/36.png', alt='')
 		.row.justify-content-center.mb-5
-			.col-lg-6
+			.col-lg-7
 				.titulo-sexto.color-acento-contenido(data-aos='fade-right')
 					h5 Figura 11.
 					span Pie de la factura
@@ -491,7 +491,7 @@
 								td(style="background-color: #a854f3 ").text-white.fw-bold TOTAL
 								td(style="background-color: #8722e2 ").text-white 547,31 €
 		p.mb-5(data-aos='fade-right') Este ajuste consiste en agregar en la tabla factura, el valor del subtotal y la tasa de impuesto a aplicar; con estos datos se puede calcular el total: 
-		.f-2-9.mn.p-5
+		.f-2-9.mn.px-5
 			.row.justify-content-center.mb-5
 				.col-lg-6
 					.titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -542,7 +542,7 @@
 					.tarjeta-numero.p-4.h-100
 						.numero: h4.text-white 10
 						p.mt-3 Para actualizar la base de datos, hacer clic en #[em Next]. 
-			p.mb-5(data-aos='fade-right') #[b Al final del proceso se debe tener el DDL donde se genera la base datos y el DDL donde se actualiza la tabla factura.  ]
+			p(data-aos='fade-right') #[b Al final del proceso se debe tener el DDL donde se genera la base datos y el DDL donde se actualiza la tabla factura.  ]
 		Separador
 		#t_2_5.titulo-segundo.color-acento-contenido(data-aos='fade-right')
 			h2 2.5 Actualización por interfaz de línea de comandos
@@ -586,7 +586,7 @@
 						.col-lg-4.mb-lg-0.mb-3
 							h5.color-morado Paso 1
 							p.mb-0 Dar clic en el menú inicio, buscar MySQL, una terminal o #[em interface] de línea de comandados (#[em Command Line Interface], CLI). 
-						.col-lg-6: img(src='@/assets/curso/temas/39.png', alt='')
+						.col-lg-6: img(src='@/assets/curso/temas/39.png', style="width: 450px", alt='').m-auto
 					.row.justify-content-center.mb-5
 						.col-lg-4.mb-lg-0.mb-3
 							h5.color-morado Paso 2
@@ -595,7 +595,7 @@
 					.row.justify-content-center.mb-5
 						.col-lg-4.mb-lg-0.mb-3
 							h5.color-morado Paso 3
-							p.mb-0 uego, se debe seleccionar la base de datos con la sentencia SQL: use farmacia. 
+							p.mb-0 Luego, se debe seleccionar la base de datos con la sentencia SQL: use farmacia. 
 						.col-lg-6: img(src='@/assets/curso/temas/40.png', alt='')
 		p.mb-5(data-aos='fade-right') A continuación, se describe un problema del cual se pretende obtener un modelo de datos que permita gestionar la información, a través de un sistema gestor de base de datos, como se realizó en el caso anterior, donde se fue empleando una estrategia empírica, luego de conocer los conceptos de bases de datos.
 			br
@@ -643,7 +643,7 @@
 					.row.justify-content-center.mb-5
 						.col-lg-4.mb-lg-0.mb-3
 							h5.color-morado Diseño físico
-							p.mb-0 Se preocupa por cómo se almacenarán los datos. Las actividades a desarrollar son
+							p.mb-0 Se preocupa por cómo se almacenarán los datos. Las actividades a desarrollar son:
 							ul.lista-ul--color
 								li.d-flex
 									i.fas.fa-circle.fa-xs(style="color: #A854F3 ")
@@ -782,7 +782,7 @@
 						ul.lista-ul--color
 							li.d-flex
 								i.fas.fa-circle.fa-xs(style="color: #A854F3 ")
-								p.mb-0 Que el valor (entero y flotante) corresponda a los valores que en un momento dado puede tener, por ejemplo, mire que las materias id_materia es tipo SMALLINT (lo que permitiría 32767 materias) mientras que en personas id_persona es tipo INT (lo que permitiría 2147483647 personas, es decir, el más del 30% de la población mundial). 
+								p.mb-0 Que el valor (entero y flotante) corresponda a los valores que en un momento dado puede tener, por ejemplo, mire que las materias id_materia es tipo SMALLINT (lo que permitiría 32767 materias) mientras que en personas id_persona es tipo INT (lo que permitiría 2147483647 personas, es decir, el más del 30 % de la población mundial). 
 							li.d-flex
 								i.fas.fa-circle.fa-xs(style="color: #A854F3 ")
 								p.mb-0 Preste especial atención en las cadenas de texto, tamaño máximo y mínimo en longitud. 

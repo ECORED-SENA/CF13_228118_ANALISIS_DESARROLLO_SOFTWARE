@@ -14,7 +14,7 @@
         .col-lg-5.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/3.png', alt='')
       Separador
       #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-        h2 1.1 XML #[em Extensible Markup Language]
+        h2 1.1 Sistema gestor de bases de datos MySQL
       p.mb-5(data-aos='fade-right') #[b MySQL] es un sistema de gestión de bases de datos relacional desarrollado bajo licencia dual. Esto significa que cuenta con una licencia pública general y/o una licencia comercial por parte de #[em  Oracle Corporation], y según medios de comunicación, es considerada la base de datos de código abierto más popular del mundo. Tener licencia dual implica que se puede usar la licencia de uso público sin incurrir en gastos; no obstante, se puede adquirir una licencia de pago que incluye paquetes que robustecen el producto y servicios de soporte técnico especializado. 
       .row.justify-content-center.mb-4
         .col-lg-10
@@ -50,13 +50,12 @@
       .tarjeta.bg-white.p-5
         SlyderA(tipo='b')
           .row.justify-content-center.mb-5
-            .col-lg-4.mb-lg-0.mb-3
+            .col-10
               h5.color-morado Diseño 
               p.mb-0 MySQL Workbench permite a un administrador de bases de datos, desarrollador o arquitecto de datos diseñar, modelar, generar y administrar bases de datos visualmente. Incluye todo lo que un modelador de datos necesita para crear modelos ER complejos, ingeniería directa e inversa, y también ofrece características clave para realizar tareas difíciles de gestión de cambios y documentación, que normalmente, requieren mucho tiempo y esfuerzo. 
                 br
                 br
-                |En Workbench se pueden crear nuevos modelos, lo que equivale a crear una nueva base de datos e ir agregando los objetos requeridos como tablas, atributos, tipos de datos, relaciones, entre otras. 
-            .col-lg-6: img(src='@/assets/curso/temas/4.png', alt='', style="max-width: 505px")
+                |En Workbench se pueden crear nuevos modelos, lo que equivale a crear una nueva base de datos e ir agregando los objetos requeridos como tablas, atributos, tipos de datos, relaciones, entre otras.
           .row.justify-content-center.mb-5
             .col-lg-4.mb-lg-0.mb-3
               h5.color-morado Desarrollar 
@@ -73,10 +72,9 @@
               p.mb-0 MySQL Workbench proporciona un conjunto de herramientas para mejorar el rendimiento de las aplicaciones MySQL. Los administradores de bases de datos pueden ver rápidamente los indicadores clave de rendimiento mediante el panel de rendimiento. Los informes de rendimiento proporcionan una fácil identificación y acceso a puntos de acceso de E / S (entrada y salida), declaraciones SQL de alto costo y más. Además, con un clic, los desarrolladores pueden ver dónde optimizar su consulta con el plan #[em visual explain] mejorado y fácil de usar. 
             .col-lg-6: img(src='@/assets/curso/temas/7.png', alt='')
           .row.justify-content-center.mb-5
-            .col-lg-4.mb-lg-0.mb-3
+            .col-10
               h5.color-morado Migración de bases de datos
-              p.mb-0 MySQL Workbench proporciona una solución completa y sencilla de usar para migrar Microsoft SQL Server, Microsoft Access, Sybase ASE, PostreSQL y otras tablas, objetos y datos RDBMS a MySQL. Los desarrolladores y administradores de bases de datos pueden convertir rápida y fácilmente las aplicaciones existentes para que se ejecuten en MySQL, tanto en Windows como en otras plataformas. La migración también admite la migración de versiones anteriores de MySQL a las últimas versiones. 
-            .col-lg-6: img(src='@/assets/curso/temas/8.png', alt='')
+              p.mb-0 MySQL Workbench proporciona una solución completa y sencilla de usar para migrar Microsoft SQL Server, Microsoft Access, Sybase ASE, PostreSQL y otras tablas, objetos y datos RDBMS a MySQL. Los desarrolladores y administradores de bases de datos pueden convertir rápida y fácilmente las aplicaciones existentes para que se ejecuten en MySQL, tanto en Windows como en otras plataformas. La migración también admite la migración de versiones anteriores de MySQL a las últimas versiones.
     Separador 
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.3 Sistemas basados en MySQL 

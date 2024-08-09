@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Gestores de contenido CMS
+      h1 Introducción de NoSQL
     .f-4-1.mn.p-5.pt-0
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
@@ -90,23 +90,15 @@
           .p-5(style="background-color: #8722e2 ").h-100 
             img.d-flex.m-auto(src='@/assets/curso/temas/60.svg', alt='' style="width: 60px ").mb-3
             h4.mb-5.text-white Ventajas
-            p.mb-0.text-white Contrario a las bases de datos relacionales, las NoSQL están basadas en key-value pairs (clave valor).
-              br
-              br
-              |Las NoSQL tienen diferentes tipos de almacenamiento, como el almacén de columnas, documentos, claves, valor de gráficos (capas), objetos, en formato XML y otros modos de tipos de datos. Las bases de datos 
-              br
-              |NoSQL de código abierto tienen una implementación rentable económicamente, al no requerir licencias ni #[em hardware] de precio alto
-              br
-              br
-              |Trabajando con bases de datos NoSQL, la expansión de funcionalidades es más fácil y económica que usando bases de datos relacionales.
+            p.text-white Contrario a las bases de datos relacionales, las NoSQL están basadas en key-value pairs (clave valor).
+            p.text-white Las NoSQL tienen diferentes tipos de almacenamiento, como el almacén de columnas, documentos, claves, valor de gráficos (capas), objetos, en formato XML y otros modos de tipos de datos. Las bases de datos NoSQL de código abierto tienen una implementación rentable económicamente, al no requerir licencias ni #[em hardware] de precio alto.
+            p.text-white.mb-0 Trabajando con bases de datos NoSQL, la expansión de funcionalidades es más fácil y económica que usando bases de datos relacionales.
         .col-lg-5.mb-lg-0.mb-3(data-aos="fade-right")
           .p-5(style="background-color: #00ffdf ").h-100 
             img.d-flex.m-auto(src='@/assets/curso/temas/61.svg', alt='' style="width: 60px ").mb-3
             h4.mb-5 Desventajas
-            p.mb-0 Casi todas las bases NoSQL no admiten funciones de fiabilidad o integridad de los datos, mientras que las bases de datos relacionales, sí. Las bases NoSQL no soportan las funcionalidades o restricciones de consistencia en los datos. Para garantizar la integridad, es responsabilidad de los desarrolladores implementar con código propio, lo que agrega más complejidad al sistema.
-              br
-              br
-              |La falta de integridad referencial en los datos hace que no sean fiables para realizar transacciones seguras, como en los sistemas bancarios, donde la integridad de los datos es primordial. Otras formas de complejidad encontradas en la mayoría de las bases de datos NoSQL incluyen la incompatibilidad con consultas SQL; se necesita un lenguaje de consulta manual, haciendo los procesos mucho más lentos y complejos.
+            p Casi todas las bases NoSQL no admiten funciones de fiabilidad o integridad de los datos, mientras que las bases de datos relacionales, sí. Las bases NoSQL no soportan las funcionalidades o restricciones de consistencia en los datos. Para garantizar la integridad, es responsabilidad de los desarrolladores implementar con código propio, lo que agrega más complejidad al sistema.
+            p.mb-0 La falta de integridad referencial en los datos hace que no sean fiables para realizar transacciones seguras, como en los sistemas bancarios, donde la integridad de los datos es primordial. Otras formas de complejidad encontradas en la mayoría de las bases de datos NoSQL incluyen la incompatibilidad con consultas SQL; se necesita un lenguaje de consulta manual, haciendo los procesos mucho más lentos y complejos.
     Separador 
     #t_4_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 4.3 Tipos de bases de datos NoSQL 
@@ -147,7 +139,7 @@
                   br
                   |Nombre: DANIELA
                   br
-                  |Apellidos: VELÉZ LEMOS
+                  |Apellidos: VÉLEZ LEMOS
                   br
                   |Correo: dnala@nerss.et
         .col-lg-5.mb-lg-0.mb-3
@@ -159,28 +151,28 @@
         br
         |En la misma base de datos, se necesita guardar datos de carros, siendo la placa lo que permite identificar al vehículo; entonces, los datos a guardar serían: 
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-2.mb-lg-0.mb-3
+        .col-lg-auto.mb-xl-0.mb-4
           ol.lista-ol--cuadro
             li.d-flex
               .lista-ol--cuadro__vineta
                 span a
               p.mb-0 
                 span.listado Placa: MSR-13 
-        .col-lg-2.mb-lg-0.mb-3
+        .col-lg-auto.mb-xl-0.mb-4
           ol.lista-ol--cuadro
             li.d-flex
               .lista-ol--cuadro__vineta
                 span b
               p.mb-0 
                 span.listado Modelo: 2015
-        .col-lg-2.mb-lg-0.mb-3
+        .col-lg-auto.mb-xl-0.mb-4
           ol.lista-ol--cuadro
             li.d-flex
               .lista-ol--cuadro__vineta
                 span c
               p.mb-0 
                 span.listado Marca: MAZDA 
-        .col-lg-2.mb-lg-0.mb-3
+        .col-lg-auto.mb-xl-0.mb-4
           ol.lista-ol--cuadro
             li.d-flex
               .lista-ol--cuadro__vineta
@@ -238,7 +230,7 @@
                   td DANIELA
                 tr(style="background-color: #ecf2ff ")
                   td persona/98765322/apellidos
-                  td VELEZ LEMOS
+                  td VÉLEZ LEMOS
                 tr(style="background-color: #ecf2ff ")
                   td persona/98765322/correo
                   td dnala@nerss.et
@@ -313,7 +305,6 @@
             p.mb-0 Sin embargo, en XML, en lugar de tener filas en las tablas, cada correo es un archivo con la estructura dada en el ejemplo. 
       h4.color-morado Formato JSON 
       p.mb-5(data-aos='fade-right') JSON (acrónimo de JavaScript #[em Object Notation], «notación de objeto de JavaScript») es un formato de texto sencillo para el intercambio de datos. Se trata de un subconjunto de la notación literal de objetos de JavaScript, aunque, debido a su amplia adopción como alternativa a XML, se considera (año 2019) un formato independiente del lenguaje. 
-
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         h5 Tabla 5.
         span Tipos de datos en JSON
@@ -321,7 +312,7 @@
             table
               thead.border-0
                 tr(style="background-color: #00ffdf")
-                  th Datos
+                  th(width="25%") Datos
                   th Definición  
               tbody
                 tr(style="background-color: #ecf2ff ")
@@ -382,7 +373,7 @@
             span  Ejemplo
           img(src='@/assets/curso/temas/67.png', alt='Menú desplegable que muestra las opciones "Nuevo," "Abrir," "Cerrar," y "Guardar" bajo la categoría "Archivo."')
       h4.color-morado Representación en formato BSON 
-      p.mb-5(data-aos='fade-right') JSON (acrónimo de JavaScript #[em Object Notation], «notación de objeto de JavaScript») es un formato de texto sencillo para el intercambio de datos. Se trata de un subconjunto de la notación literal de objetos de JavaScript, aunque, debido a su amplia adopción como alternativa a XML, se considera (año 2019) un formato independiente del lenguaje. 
+      p.mb-5(data-aos='fade-right') La representación de JSON que se presenta en esta tabla es una representación en formato texto, pero también se puede representar en formato binario (unos y ceros). A esta otra representación equivalente en binario se le llama BSON. Es una cadena de unos y ceros sin nada que la caracterice de más, excepto que al convertirla en cadenas de texto se presenta como se observó en el ejemplo anterior.
       .row.justify-content-center.mb-5
         .col-lg-6.mb-lg-0.mb-3
           .tarjeta-codigo.p-5.mb-5
@@ -458,7 +449,7 @@
                 |  } 
                 br
                 |}
-      .titulo-tres.mb-5: h3.mb-0 Bases de datos orientada a grafos
+      .titulo-tres.mb-5: h3.mb-0 Bases de datos orientadas a grafos
       p.mb-5(data-aos='fade-right') Este tipo de base de datos es muy diferente a los anteriores; maneja la información de una manera particular, empleando grafos y teoría de grafos. Cada nodo solo debe contener una sola columna, por lo tanto, se deben normalizar completamente las bases de datos. Solo aplica para grafos de tipo binario; cada nodo solo se puede relacionar con otros dos nodos como máximo. Las ventajas de este tipo de bases de datos se enfocan en la integridad de los datos y la optimización de consultas. 
       .row.justify-content-center.mb-5
         .col-lg-6
