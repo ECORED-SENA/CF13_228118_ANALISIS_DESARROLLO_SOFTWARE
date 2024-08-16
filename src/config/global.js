@@ -110,7 +110,7 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Introducción de NoSQL',
+        titulo: 'Introducción NoSQL',
         desarrolloContenidos: true,
         subMenu: [
           {

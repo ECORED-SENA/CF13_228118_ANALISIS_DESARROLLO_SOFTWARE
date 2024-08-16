@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Introducción de NoSQL
+      h1 Introducción NoSQL
     .f-4-1.mn.p-5.pt-0
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
